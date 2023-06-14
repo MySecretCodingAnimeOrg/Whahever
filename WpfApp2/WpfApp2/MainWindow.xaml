@@ -1,0 +1,16 @@
+﻿<Window x:Class="WpfApp2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Content="Button" Style="{DynamicResource but1}" Click="Button_Click" HorizontalAlignment="Left" Margin="270,192,0,0" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Style="{DynamicResource TextBlock_Style}" Margin="290,124,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Margin="565,163,0,0" Style="{DynamicResource TextBox_Style}" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="ban" Content="Button" HorizontalAlignment="Left" Style="{DynamicResource Button_Cliked}" Margin="205,273,0,0" VerticalAlignment="Top" Click="Button_Click_1"/>
+
+    </Grid>
+</Window>
