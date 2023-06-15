@@ -3,7 +3,7 @@
   <Profiles />
   <Settings>
     <Setting Name="CurrentTheme" Type="System.String" Scope="User">
-      <Value Profile="(Default)">LightTheme</Value>
+      <Value Profile="(Default)">DayTheme</Value>
     </Setting>
   </Settings>
 </SettingsFile>

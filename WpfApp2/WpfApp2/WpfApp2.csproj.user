@@ -7,10 +7,51 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="UC_MRC.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
     <Page Update="MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="Properties\Styles\DarkTheme_elements\Label_Style_Blue_Big.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Properties\Styles\DayTheme.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Properties\Styles\DayTheme_elements\BackGround.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Properties\Styles\DayTheme_elements\Block_Style.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Properties\Styles\DayTheme_elements\Button_Cliked_Style.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Properties\Styles\DayTheme_elements\Button_Style.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Properties\Styles\DayTheme_elements\elem_Style.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Properties\Styles\DayTheme_elements\Label_Style.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Properties\Styles\DayTheme_elements\Label_Style_Blue_Big.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Properties\Styles\DayTheme_elements\Label_Style_Blue_Middle.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Properties\Styles\DayTheme_elements\TextBox_Style.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Properties\Styles\LightTheme.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Properties\Styles\LightTheme_elements\BackGround.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Properties\Styles\LightTheme_elements\Block_Style.xaml">
@@ -22,10 +63,19 @@
     <Page Update="Properties\Styles\LightTheme_elements\Button_Style.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Properties\Styles\LightTheme_elements\TextBlock_Style.xaml">
+    <Page Update="Properties\Styles\LightTheme_elements\elem_Style.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Properties\Styles\LightTheme_elements\Label_Style.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Properties\Styles\LightTheme_elements\Label_Style_Blue_Big.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Properties\Styles\LightTheme_elements\TextBox_Style.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UC_MRC.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

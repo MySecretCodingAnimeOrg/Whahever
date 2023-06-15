@@ -23,6 +23,7 @@ namespace WpfApp2
                 theme = value;
                 var d = new ResourceDictionary { Source = new Uri($"/Properties/Styles/{value}.xaml", UriKind.Relative) };
                 //Current.Resources.MergedDictionaries.RemoveAt(0);
+                Current.Resources.MergedDictionaries.Clear();
                 Current.Resources.MergedDictionaries.Insert(0, d);
                 WpfApp2.Properties.Settings.Default.CurrentTheme = theme;
                 WpfApp2.Properties.Settings.Default.Save();
@@ -31,7 +32,8 @@ namespace WpfApp2
         }
         public App() { 
             InitializeComponent();
-            Theme = WpfApp2.Properties.Settings.Default.CurrentTheme;
+            WpfApp2.Properties.Settings.Default.CurrentTheme = "DayTheme";
+            //Theme = WpfApp2.Properties.Settings.Default.CurrentTheme;
         }
         
         

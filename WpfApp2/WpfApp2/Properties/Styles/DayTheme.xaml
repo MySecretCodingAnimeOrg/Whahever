@@ -1,0 +1,13 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="DayTheme_elements/Button_Style.xaml"/>
+        <ResourceDictionary Source="DayTheme_elements/Label_Style.xaml"/>
+        <ResourceDictionary Source="DayTheme_elements/TextBox_Style.xaml"/>
+        <ResourceDictionary Source="DayTheme_elements/Button_Cliked_Style.xaml"/>
+        <ResourceDictionary Source="DayTheme_elements/BackGround.xaml"/>
+        <ResourceDictionary Source="DayTheme_elements/elem_Style.xaml"/>
+        <ResourceDictionary Source="DayTheme_elements/Label_Style_Blue_Big.xaml"/>
+        <ResourceDictionary Source="DayTheme_elements/Label_Style_Blue_Middle.xaml"/>
+    </ResourceDictionary.MergedDictionaries>
+</ResourceDictionary>

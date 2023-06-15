@@ -23,18 +23,28 @@ namespace WpfApp2
         public MainWindow()
         {
             InitializeComponent();
+            Application.Current.MainWindow = this;
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             App.Theme = "LightTheme";
-            MessageBox.Show("awd");
+            MessageBox.Show("Light");
 
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-           
+            App.Theme = "DayTheme";
+            MessageBox.Show("Day");
         }
+
+        private void Window_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            if (e.ChangedButton == MouseButton.Left)
+                (sender as MainWindow).DragMove();
+        }
+
+        
     }
 }
