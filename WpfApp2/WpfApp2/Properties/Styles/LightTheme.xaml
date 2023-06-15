@@ -1,0 +1,15 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="LightTheme_elements/Button_Style.xaml"/>
+        <ResourceDictionary Source="LightTheme_elements/Label_Style.xaml"/>
+        <ResourceDictionary Source="LightTheme_elements/TextBox_Style.xaml"/>
+        <ResourceDictionary Source="LightTheme_elements/Button_Cliked_Style.xaml"/>
+        <ResourceDictionary Source="LightTheme_elements/BackGround.xaml"/>
+        <ResourceDictionary Source="LightTheme_elements/elem_Style.xaml"/>
+    </ResourceDictionary.MergedDictionaries>
+    
+    
+
+
+</ResourceDictionary>
