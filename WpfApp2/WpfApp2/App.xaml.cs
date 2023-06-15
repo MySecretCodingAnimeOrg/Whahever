@@ -24,7 +24,7 @@ namespace WpfApp2
                 var d = new ResourceDictionary { Source = new Uri($"/Properties/Styles/{value}.xaml", UriKind.Relative) };
                 //Current.Resources.MergedDictionaries.RemoveAt(0);
                 Current.Resources.MergedDictionaries.Clear();
-                Current.Resources.MergedDictionaries.Insert(0, d);
+                Current.Resources.MergedDictionaries.Add(d);
                 WpfApp2.Properties.Settings.Default.CurrentTheme = theme;
                 WpfApp2.Properties.Settings.Default.Save();
 

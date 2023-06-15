@@ -90,3 +90,7 @@ C:\Users\nickill\source\repos\WpfApp2\WpfApp2\obj\Debug\net6.0-windows\Propertie
 \\Mac\Home\Documents\GitHub\Whahever\WpfApp2\WpfApp2\obj\Debug\net6.0-windows\WpfApp2.pdb
 \\Mac\Home\Documents\GitHub\Whahever\WpfApp2\WpfApp2\obj\Debug\net6.0-windows\WpfApp2.genruntimeconfig.cache
 \\Mac\Home\Documents\GitHub\Whahever\WpfApp2\WpfApp2\obj\Debug\net6.0-windows\ref\WpfApp2.dll
+\\Mac\Home\Documents\GitHub\Whahever\WpfApp2\WpfApp2\bin\Debug\net6.0-windows\MaterialDesignColors.dll
+\\Mac\Home\Documents\GitHub\Whahever\WpfApp2\WpfApp2\bin\Debug\net6.0-windows\MaterialDesignThemes.Wpf.dll
+\\Mac\Home\Documents\GitHub\Whahever\WpfApp2\WpfApp2\bin\Debug\net6.0-windows\Microsoft.Xaml.Behaviors.dll
+\\Mac\Home\Documents\GitHub\Whahever\WpfApp2\WpfApp2\obj\Debug\net6.0-windows\WpfApp2.csproj.CopyComplete

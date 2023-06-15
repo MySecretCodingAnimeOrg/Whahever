@@ -8,11 +8,9 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800" MinHeight="200" MinWidth="400"
         ResizeMode="CanResizeWithGrip"
-        
+        Style="{DynamicResource BackGround}"
         WindowStyle="None">
-    <Window.Background>
-        <ImageBrush ImageSource="/MorningEvening.png"/>
-    </Window.Background>
+    
 
     <Grid>
         
