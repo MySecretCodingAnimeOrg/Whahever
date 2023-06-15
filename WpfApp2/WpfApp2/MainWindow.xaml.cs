@@ -29,14 +29,14 @@ namespace WpfApp2
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             App.Theme = "LightTheme";
-            MessageBox.Show("Light");
+            //MessageBox.Show("Light");
 
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
             App.Theme = "DayTheme";
-            MessageBox.Show("Day");
+            //MessageBox.Show("Day");
         }
 
         private void Window_MouseDown(object sender, MouseButtonEventArgs e)

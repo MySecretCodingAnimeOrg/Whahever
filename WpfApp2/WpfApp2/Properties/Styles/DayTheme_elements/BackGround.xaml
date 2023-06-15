@@ -3,7 +3,7 @@
     <Style TargetType="Window" x:Key="BackGround">
         <Setter Property="Background" >
             <Setter.Value>
-                <ImageBrush ImageSource="/Properties/Styles/DayTheme-elements/Day.png"/>
+                <ImageBrush ImageSource="/Properties/Styles/DayTheme_elements/Day.png"/>
             </Setter.Value>
         </Setter>
 

@@ -1,8 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "nuh2M3O5s7TKEHuau1hv6D+SVK8UGqdQ62sa6XGZTdlK33MNdDl8QDVoYUHjfYNh4uc4h+R4X4J/8S2xf/S9rA==",
+  "dgSpecHash": "Zy2iwdhYRjU65JlK+ueDtPt9Bwi/olWJXvt/RTHVpMnTPMIOBziaqV2rxBNTtTjlSgkuQhBNC+V0AyUIVHKXvQ==",
   "success": true,
   "projectFilePath": "D:\\Whahever\\WpfApp2\\WpfApp2\\WpfApp2.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\arche\\.nuget\\packages\\controlzex\\4.3.0\\controlzex.4.3.0.nupkg.sha512",
+    "C:\\Users\\arche\\.nuget\\packages\\mahapps.metro\\2.0.0\\mahapps.metro.2.0.0.nupkg.sha512",
+    "C:\\Users\\arche\\.nuget\\packages\\materialdesigncolors\\2.1.4\\materialdesigncolors.2.1.4.nupkg.sha512",
+    "C:\\Users\\arche\\.nuget\\packages\\materialdesignthemes\\4.9.0\\materialdesignthemes.4.9.0.nupkg.sha512",
+    "C:\\Users\\arche\\.nuget\\packages\\materialdesignthemes.mahapps\\0.3.0\\materialdesignthemes.mahapps.0.3.0.nupkg.sha512",
+    "C:\\Users\\arche\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.39\\microsoft.xaml.behaviors.wpf.1.1.39.nupkg.sha512",
+    "C:\\Users\\arche\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\arche\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512"
+  ],
   "logs": []
 }
