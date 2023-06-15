@@ -1,0 +1,38 @@
+﻿<UserControl x:Class="WpfApp2.UC_Left_Menu"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WpfApp2"
+             mc:Ignorable="d"
+             Style="{DynamicResource Fone}"
+             d:DesignHeight="903" d:DesignWidth="500">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.04*"/>
+            <ColumnDefinition Width="0.08*"/>
+            <ColumnDefinition Width="0.15*"/>
+            <ColumnDefinition Width="0.5*"/>
+            <ColumnDefinition Width="0.04*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="0.46*"/>
+            <RowDefinition Height="0.2*"/>
+            <RowDefinition Height="0.8*"/>
+            <RowDefinition Height="0.4*"/>
+            <RowDefinition Height="0.4*"/>
+            <RowDefinition Height="0.4*"/>
+            <RowDefinition Height="0.4*"/>
+            <RowDefinition Height="0.4*"/>
+            <RowDefinition Height="0.4*"/>
+            <RowDefinition Height="0.4*"/>
+            <RowDefinition Height="0.8*"/>
+
+        </Grid.RowDefinitions>
+
+        <Label Content="Город" HorizontalContentAlignment="Center" VerticalAlignment="Center" VerticalContentAlignment="Center" Style="{DynamicResource Label_Style_Blue_Big}" Grid.Row="1"  Grid.Column="1" Grid.ColumnSpan="3" />
+        <Image Grid.Row="3" Grid.Column="2" Source="/Sunny.png"/>
+
+    </Grid>
+</UserControl>

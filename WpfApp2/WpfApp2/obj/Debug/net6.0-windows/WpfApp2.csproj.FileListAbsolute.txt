@@ -149,3 +149,17 @@ D:\Whahever\WpfApp2\WpfApp2\obj\Debug\net6.0-windows\App.baml
 \\Mac\Home\Documents\GitHub\Whahever\WpfApp2\WpfApp2\obj\Debug\net6.0-windows\Properties\Styles\MorningTheme_elements\TextBox_Style.baml
 \\Mac\Home\Documents\GitHub\Whahever\WpfApp2\WpfApp2\obj\Debug\net6.0-windows\Properties\Styles\MorningTheme.baml
 \\Mac\Home\Documents\GitHub\Whahever\WpfApp2\WpfApp2\obj\Debug\net6.0-windows\Properties\Styles\NightTheme_elements\Label_Style_Blue_Big.baml
+\\Mac\Home\Documents\GitHub\Whahever\WpfApp2\WpfApp2\obj\Debug\net6.0-windows\UC_Left_Menu.g.cs
+\\Mac\Home\Documents\GitHub\Whahever\WpfApp2\WpfApp2\obj\Debug\net6.0-windows\UC_Left_Menu.baml
+\\Mac\Home\Documents\GitHub\Whahever\WpfApp2\WpfApp2\obj\Debug\net6.0-windows\Properties\Styles\MorningTheme_elements\Button_underLine_Big.baml
+\\Mac\Home\Documents\GitHub\Whahever\WpfApp2\WpfApp2\obj\Debug\net6.0-windows\Properties\Styles\MorningTheme_elements\Label_Style_Blue_Middle.baml
+\\Mac\Home\Documents\GitHub\Whahever\WpfApp2\WpfApp2\obj\Debug\net6.0-windows\Properties\Styles\NightTheme.baml
+\\Mac\Home\Documents\GitHub\Whahever\WpfApp2\WpfApp2\obj\Debug\net6.0-windows\Properties\Styles\NightTheme_elements\BackGround.baml
+\\Mac\Home\Documents\GitHub\Whahever\WpfApp2\WpfApp2\obj\Debug\net6.0-windows\Properties\Styles\NightTheme_elements\Block_Style.baml
+\\Mac\Home\Documents\GitHub\Whahever\WpfApp2\WpfApp2\obj\Debug\net6.0-windows\Properties\Styles\NightTheme_elements\Button_Style.baml
+\\Mac\Home\Documents\GitHub\Whahever\WpfApp2\WpfApp2\obj\Debug\net6.0-windows\Properties\Styles\NightTheme_elements\Button_underLine_Big.baml
+\\Mac\Home\Documents\GitHub\Whahever\WpfApp2\WpfApp2\obj\Debug\net6.0-windows\Properties\Styles\NightTheme_elements\Label_Style.baml
+\\Mac\Home\Documents\GitHub\Whahever\WpfApp2\WpfApp2\obj\Debug\net6.0-windows\Properties\Styles\NightTheme_elements\Label_Style_Blue_Middle.baml
+\\Mac\Home\Documents\GitHub\Whahever\WpfApp2\WpfApp2\obj\Debug\net6.0-windows\Properties\Styles\NightTheme_elements\Min_window_Button.baml
+\\Mac\Home\Documents\GitHub\Whahever\WpfApp2\WpfApp2\obj\Debug\net6.0-windows\Properties\Styles\NightTheme_elements\TextBlock_Style.baml
+\\Mac\Home\Documents\GitHub\Whahever\WpfApp2\WpfApp2\obj\Debug\net6.0-windows\Properties\Styles\NightTheme_elements\TextBox_Style.baml

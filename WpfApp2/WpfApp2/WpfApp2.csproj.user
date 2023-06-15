@@ -7,12 +7,39 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="UC_Left_Menu.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="UC_MRC.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
     <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Properties\Styles\MorningTheme_elements\Button_underLine_Big.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Properties\Styles\MorningTheme_elements\Label_Style_Blue_Middle.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Properties\Styles\NightTheme.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Properties\Styles\NightTheme_elements\BackGround.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Properties\Styles\NightTheme_elements\Block_Style.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Properties\Styles\NightTheme_elements\Button_Style.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Properties\Styles\NightTheme_elements\Button_underLine_Big.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Properties\Styles\NightTheme_elements\Label_Style.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Properties\Styles\NightTheme_elements\Label_Style_Blue_Big.xaml">
@@ -79,6 +106,21 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Properties\Styles\MorningTheme_elements\TextBox_Style.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Properties\Styles\NightTheme_elements\Label_Style_Blue_Middle.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Properties\Styles\NightTheme_elements\Min_window_Button.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Properties\Styles\NightTheme_elements\TextBlock_Style.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Properties\Styles\NightTheme_elements\TextBox_Style.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UC_Left_Menu.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="UC_MRC.xaml">

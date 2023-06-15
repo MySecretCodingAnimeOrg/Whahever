@@ -8,6 +8,11 @@
         <ResourceDictionary Source="MorningTheme_elements/BackGround.xaml"/>
         <ResourceDictionary Source="MorningTheme_elements/elem_Style.xaml"/>
         <ResourceDictionary Source="MorningTheme_elements/Min_window_Button.xaml"/>
+        <ResourceDictionary Source="MorningTheme_elements/Button_underLine_Big.xaml"/>
+        <ResourceDictionary Source="MorningTheme_elements/Label_Style_Blue_Big.xaml"/>
+        <ResourceDictionary Source="MorningTheme_elements/Block_Style.xaml"/>
+        <ResourceDictionary Source="MorningTheme_elements/Label_Style_Blue_Middle.xaml"/>
+        
     </ResourceDictionary.MergedDictionaries>
     
     

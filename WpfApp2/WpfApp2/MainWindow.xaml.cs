@@ -28,15 +28,13 @@ namespace WpfApp2
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            App.Theme = "MorningTheme";
-            MessageBox.Show("Light");
+            App.Theme = "NightTheme";
 
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
             App.Theme = "DayTheme";
-            MessageBox.Show("Day");
         }
 
         private void Window_MouseDown(object sender, MouseButtonEventArgs e)
@@ -45,6 +43,9 @@ namespace WpfApp2
                 (sender as MainWindow).DragMove();
         }
 
-        
+        private void Settings_Page(object sender, RoutedEventArgs e)
+        {
+            App.Theme = "MorningTheme";
+        }
     }
 }
