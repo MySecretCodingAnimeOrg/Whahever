@@ -6,3 +6,6 @@
 *.cache
 *.vsidx
 SunCloud/.vs/SunCloud/v17/.suo
+WpfApp2/.vs/WpfApp2/v17/.suo
+*.bin
+*.exe
