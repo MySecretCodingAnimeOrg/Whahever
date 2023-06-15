@@ -15,7 +15,7 @@
     <Page Update="MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Properties\Styles\DarkTheme_elements\Label_Style_Blue_Big.xaml">
+    <Page Update="Properties\Styles\NightTheme_elements\Label_Style_Blue_Big.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Properties\Styles\DayTheme.xaml">
@@ -45,34 +45,40 @@
     <Page Update="Properties\Styles\DayTheme_elements\Label_Style_Blue_Middle.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="Properties\Styles\DayTheme_elements\Min_window_Button.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Properties\Styles\DayTheme_elements\TextBox_Style.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Properties\Styles\LightTheme.xaml">
+    <Page Update="Properties\Styles\MorningTheme.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Properties\Styles\LightTheme_elements\BackGround.xaml">
+    <Page Update="Properties\Styles\MorningTheme_elements\BackGround.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Properties\Styles\LightTheme_elements\Block_Style.xaml">
+    <Page Update="Properties\Styles\MorningTheme_elements\Block_Style.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Properties\Styles\LightTheme_elements\Button_Cliked_Style.xaml">
+    <Page Update="Properties\Styles\MorningTheme_elements\Button_Cliked_Style.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Properties\Styles\LightTheme_elements\Button_Style.xaml">
+    <Page Update="Properties\Styles\MorningTheme_elements\Button_Style.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Properties\Styles\LightTheme_elements\elem_Style.xaml">
+    <Page Update="Properties\Styles\MorningTheme_elements\elem_Style.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Properties\Styles\LightTheme_elements\Label_Style.xaml">
+    <Page Update="Properties\Styles\MorningTheme_elements\Label_Style.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Properties\Styles\LightTheme_elements\Label_Style_Blue_Big.xaml">
+    <Page Update="Properties\Styles\MorningTheme_elements\Label_Style_Blue_Big.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Properties\Styles\LightTheme_elements\TextBox_Style.xaml">
+    <Page Update="Properties\Styles\MorningTheme_elements\Min_window_Button.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Properties\Styles\MorningTheme_elements\TextBox_Style.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="UC_MRC.xaml">

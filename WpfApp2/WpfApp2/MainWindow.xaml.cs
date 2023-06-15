@@ -28,7 +28,7 @@ namespace WpfApp2
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            App.Theme = "LightTheme";
+            App.Theme = "MorningTheme";
             MessageBox.Show("Light");
 
         }

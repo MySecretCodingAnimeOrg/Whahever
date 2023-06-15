@@ -16,13 +16,14 @@
         <Grid.RowDefinitions>
             <RowDefinition/>
         </Grid.RowDefinitions>
-        <Button x:Name="Minimize" Padding="0" HorizontalAlignment="Center"   VerticalAlignment="Center" Grid.Column="0" Click="Minimize_Click" Foreground="AliceBlue" Background="Transparent" BorderBrush="Transparent">
+        <Button x:Name="Minimize" Padding="0" HorizontalAlignment="Center"   VerticalAlignment="Center" Grid.Column="0" Click="Minimize_Click"
+                Style="{DynamicResource Min_window_Button}" Background="Transparent" BorderBrush="Transparent">
             <materialDesign:PackIcon Kind="WindowMinimize"/>
         </Button>
-        <Button x:Name="Resize"  Padding="0" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="1" Click="Resize_Click" Foreground="AliceBlue" Background="Transparent"  BorderBrush="Transparent">
+        <Button x:Name="Resize"  Padding="0" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="1" Click="Resize_Click" Style="{DynamicResource Min_window_Button}" Background="Transparent"  BorderBrush="Transparent">
             <materialDesign:PackIcon Kind="WindowMaximize"/>
         </Button>
-        <Button x:Name="Close" Padding="0" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="2" Click="Close_Click" Foreground="AliceBlue" Background="Transparent"  BorderBrush="Transparent" >
+        <Button x:Name="Close" Padding="0" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="2" Click="Close_Click" Style="{DynamicResource Min_window_Button}" Background="Transparent"  BorderBrush="Transparent" >
             <materialDesign:PackIcon Kind="WindowClose"/>
            
         </Button>     

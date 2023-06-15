@@ -14,7 +14,7 @@
     <None Remove="MorningEvening.png" />
     <None Remove="Properties\Styles\DayTheme_elements\Day.png" />
     <None Remove="Properties\Styles\DayTheme_elements\Group 30 %282%29.png" />
-    <None Remove="Properties\Styles\LightTheme_elements\MorningEvening.png" />
+    <None Remove="Properties\Styles\MorningTheme_elements\MorningEvening.png" />
     <None Remove="Rectangle 13.png" />
     <None Remove="Vector 45.png" />
   </ItemGroup>
@@ -45,7 +45,7 @@
     <Resource Include="MorningEvening.png" />
     <Resource Include="Properties\Styles\DayTheme_elements\Day.png" />
     <Resource Include="Properties\Styles\DayTheme_elements\Group 30 (2).png" />
-    <Resource Include="Properties\Styles\LightTheme_elements\MorningEvening.png" />
+    <Resource Include="Properties\Styles\MorningTheme_elements\MorningEvening.png" />
     <Resource Include="Rectangle 13.png" />
     <Resource Include="Vector 45.png" />
   </ItemGroup>
