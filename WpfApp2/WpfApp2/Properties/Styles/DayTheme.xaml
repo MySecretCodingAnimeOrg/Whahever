@@ -9,5 +9,6 @@
         <ResourceDictionary Source="DayTheme_elements/elem_Style.xaml"/>
         <ResourceDictionary Source="DayTheme_elements/Label_Style_Blue_Big.xaml"/>
         <ResourceDictionary Source="DayTheme_elements/Label_Style_Blue_Middle.xaml"/>
+        <ResourceDictionary Source="DayTheme_elements/Button_underLine_Big.xaml"/>
     </ResourceDictionary.MergedDictionaries>
 </ResourceDictionary>

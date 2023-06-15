@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nickill\\source\\repos\\WpfApp2\\WpfApp2\\WpfApp2.csproj": {}
+    "\\\\Mac\\Home\\Documents\\GitHub\\Whahever\\WpfApp2\\WpfApp2\\WpfApp2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nickill\\source\\repos\\WpfApp2\\WpfApp2\\WpfApp2.csproj": {
+    "\\\\Mac\\Home\\Documents\\GitHub\\Whahever\\WpfApp2\\WpfApp2\\WpfApp2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nickill\\source\\repos\\WpfApp2\\WpfApp2\\WpfApp2.csproj",
+        "projectUniqueName": "\\\\Mac\\Home\\Documents\\GitHub\\Whahever\\WpfApp2\\WpfApp2\\WpfApp2.csproj",
         "projectName": "WpfApp2",
-        "projectPath": "C:\\Users\\nickill\\source\\repos\\WpfApp2\\WpfApp2\\WpfApp2.csproj",
+        "projectPath": "\\\\Mac\\Home\\Documents\\GitHub\\Whahever\\WpfApp2\\WpfApp2\\WpfApp2.csproj",
         "packagesPath": "C:\\Users\\nickill\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nickill\\source\\repos\\WpfApp2\\WpfApp2\\obj\\",
+        "outputPath": "\\\\Mac\\Home\\Documents\\GitHub\\Whahever\\WpfApp2\\WpfApp2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nickill\\AppData\\Roaming\\NuGet\\NuGet.Config",
