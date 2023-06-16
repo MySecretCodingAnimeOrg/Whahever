@@ -15,7 +15,7 @@ namespace SunCloud.Model
         public class Biomet
         {
             ///<summary>
-            ///Индекс биометрического показателя
+            ///Индекс биометрического показателя 
             ///</summary>
             public int? index;
 
