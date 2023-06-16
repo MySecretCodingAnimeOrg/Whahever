@@ -69,7 +69,8 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Model\WeatherMain.cs" />
+    <Compile Include="Model\ShortApiModel.cs" />
+    <Compile Include="Model\ApiModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
