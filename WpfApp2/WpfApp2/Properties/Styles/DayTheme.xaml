@@ -13,5 +13,6 @@
         <ResourceDictionary Source="DayTheme_elements/Min_window_Button.xaml"/>
         <ResourceDictionary Source="DayTheme_elements/Block_Style.xaml"/>
         <ResourceDictionary Source="DayTheme_elements/Label_Style_Blue_Middle.xaml"/>
+        <ResourceDictionary Source="DayTheme_elements/Label_Style_Time_and_Text_Left_Menu.xaml"/>
     </ResourceDictionary.MergedDictionaries>
 </ResourceDictionary>

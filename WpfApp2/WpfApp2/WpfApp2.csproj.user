@@ -18,10 +18,16 @@
     <Page Update="MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="Properties\Styles\DayTheme_elements\Label_Style_Time_and_Text_Left_Menu.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Properties\Styles\MorningTheme_elements\Button_underLine_Big.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Properties\Styles\MorningTheme_elements\Label_Style_Blue_Middle.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Properties\Styles\MorningTheme_elements\Label_Style_Time_and_Text_Left_Menu.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Properties\Styles\NightTheme.xaml">

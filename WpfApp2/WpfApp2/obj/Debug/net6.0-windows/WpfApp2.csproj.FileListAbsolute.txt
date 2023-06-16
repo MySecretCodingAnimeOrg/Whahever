@@ -163,3 +163,5 @@ D:\Whahever\WpfApp2\WpfApp2\obj\Debug\net6.0-windows\App.baml
 \\Mac\Home\Documents\GitHub\Whahever\WpfApp2\WpfApp2\obj\Debug\net6.0-windows\Properties\Styles\NightTheme_elements\Min_window_Button.baml
 \\Mac\Home\Documents\GitHub\Whahever\WpfApp2\WpfApp2\obj\Debug\net6.0-windows\Properties\Styles\NightTheme_elements\TextBlock_Style.baml
 \\Mac\Home\Documents\GitHub\Whahever\WpfApp2\WpfApp2\obj\Debug\net6.0-windows\Properties\Styles\NightTheme_elements\TextBox_Style.baml
+\\Mac\Home\Documents\GitHub\Whahever\WpfApp2\WpfApp2\obj\Debug\net6.0-windows\Properties\Styles\DayTheme_elements\Label_Style_Time_and_Text_Left_Menu.baml
+\\Mac\Home\Documents\GitHub\Whahever\WpfApp2\WpfApp2\obj\Debug\net6.0-windows\Properties\Styles\MorningTheme_elements\Label_Style_Time_and_Text_Left_Menu.baml

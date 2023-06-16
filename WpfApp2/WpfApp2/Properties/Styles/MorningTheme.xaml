@@ -12,6 +12,7 @@
         <ResourceDictionary Source="MorningTheme_elements/Label_Style_Blue_Big.xaml"/>
         <ResourceDictionary Source="MorningTheme_elements/Block_Style.xaml"/>
         <ResourceDictionary Source="MorningTheme_elements/Label_Style_Blue_Middle.xaml"/>
+        <ResourceDictionary Source="MorningTheme_elements/Label_Style_Time_and_Text_Left_Menu.xaml"/>
         
     </ResourceDictionary.MergedDictionaries>
     
