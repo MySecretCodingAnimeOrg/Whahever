@@ -17,7 +17,7 @@ namespace SunCloud.Model
             ///<summary>
             ///Индекс биометрического показателя 
             ///</summary>
-            public int? index;
+            public double? index;
 
             ///<summary>
             ///Состояние биометрического показателя
@@ -33,7 +33,7 @@ namespace SunCloud.Model
             ///<summary>
             ///Идентификатор страны
             ///</summary>
-            public int? id;
+            public double? id;
 
             ///<summary>
             ///Название страны
@@ -54,17 +54,17 @@ namespace SunCloud.Model
             ///<summary>
             ///Минимальная температура воздуха
             ///</summary>
-            public int? temp_min;
+            public double? temp_min;
 
             ///<summary>
             ///Средняя температура воздуха
             ///</summary>
-            public int? temp_avg;
+            public double? temp_avg;
 
             ///<summary>
             ///Максимальная температура воздуха
             ///</summary>
-            public int? temp_max;
+            public double? temp_max;
 
             ///<summary>
             ///Скорость ветра
@@ -84,22 +84,22 @@ namespace SunCloud.Model
             ///<summary>
             ///Атмосферное давление в мм рт. ст.
             ///</summary>
-            public int? pressure_mm;
+            public double? pressure_mm;
 
             ///<summary>
             ///Атмосферное давление в Па
             ///</summary>
-            public int? pressure_pa;
+            public double? pressure_pa;
 
             ///<summary>
             ///Относительная влажность воздуха
             ///</summary>
-            public int? humidity;
+            public double? humidity;
 
             ///<summary>
             ///Температура почвы
             ///</summary>
-            public int? soil_temp;
+            public double? soil_temp;
 
             ///<summary>
             ///Влажность почвы
@@ -109,17 +109,17 @@ namespace SunCloud.Model
             ///<summary>
             ///Количество осадков в мм
             ///</summary>
-            public int? prec_mm;
+            public double? prec_mm;
 
             ///<summary>
             ///Вероятность выпадения осадков в %
             ///</summary>
-            public int? prec_prob;
+            public double? prec_prob;
 
             ///<summary>
             ///Продолжительность осадков в минутах
             ///</summary>
-            public int? prec_period;
+            public double? prec_period;
 
             ///<summary>
             ///Облачность в %
@@ -129,12 +129,12 @@ namespace SunCloud.Model
             ///<summary>
             ///Тип осадков
             ///</summary>
-            public int? prec_type;
+            public double? prec_type;
 
             ///<summary>
             ///Интенсивность осадков
             ///</summary>
-            public int? prec_strength;
+            public double? prec_strength;
 
             ///<summary>
             ///Код значка погоды
@@ -149,12 +149,12 @@ namespace SunCloud.Model
             ///<summary>
             ///Ультрафиолетовый индекс
             ///</summary>
-            public int? uv_index;
+            public double? uv_index;
 
             ///<summary>
             ///Ощущаемая температура
             ///</summary>
-            public int? feels_like;
+            public double? feels_like;
 
             ///<summary>
             ///День или ночь
@@ -169,7 +169,7 @@ namespace SunCloud.Model
             ///<summary>
             ///Высота свежевыпавшего снега
             ///</summary>
-            public int? fresh_snow_mm;
+            public double? fresh_snow_mm;
         }
         /// <summary>
         /// Класс, содержащий данные о погоде днем (сокращенный вариант)
@@ -184,12 +184,12 @@ namespace SunCloud.Model
             /// <summary>
             /// Температура воздуха
             /// </summary>
-            public int temp;
+            public double temp;
 
             /// <summary>
             /// Минимальная температура воздуха
             /// </summary>
-            public int temp_min;
+            public double temp_min;
 
             /// <summary>
             /// Скорость ветра
@@ -209,22 +209,22 @@ namespace SunCloud.Model
             /// <summary>
             /// Атмосферное давление в мм рт. ст.
             /// </summary>
-            public int pressure_mm;
+            public double pressure_mm;
 
             /// <summary>
             /// Атмосферное давление в Па
             /// </summary>
-            public int pressure_pa;
+            public double pressure_pa;
 
             /// <summary>
             /// Относительная влажность воздуха
             /// </summary>
-            public int humidity;
+            public double humidity;
 
             /// <summary>
             /// Температура почвы
             /// </summary>
-            public int soil_temp;
+            public double soil_temp;
 
             /// <summary>
             /// Влажность почвы
@@ -234,17 +234,17 @@ namespace SunCloud.Model
             /// <summary>
             /// Количество осадков в мм
             /// </summary>
-            public int prec_mm;
+            public double prec_mm;
 
             /// <summary>
             /// Вероятность выпадения осадков в %
             /// </summary>
-            public int prec_prob;
+            public double prec_prob;
 
             /// <summary>
             /// Продолжительность осадков в минутах
             /// </summary>
-            public int prec_period;
+            public double prec_period;
 
             /// <summary>
             /// Облачность в %
@@ -254,12 +254,12 @@ namespace SunCloud.Model
             /// <summary>
             /// Тип осадков
             /// </summary>
-            public int prec_type;
+            public double prec_type;
 
             /// <summary>
             /// Интенсивность осадков
             /// </summary>
-            public int prec_strength;
+            public double prec_strength;
 
             /// <summary>
             /// Код значка погоды
@@ -274,12 +274,12 @@ namespace SunCloud.Model
             /// <summary>
             /// Индекс УФ-излучения
             /// </summary>
-            public int uv_index;
+            public double uv_index;
 
             /// <summary>
             /// Ощущаемая температура
             /// </summary>
-            public int feels_like;
+            public double feels_like;
 
             /// <summary>
             /// Время суток
@@ -294,7 +294,7 @@ namespace SunCloud.Model
             /// <summary>
             /// Количество свежевыпавшего снега в мм
             /// </summary>
-            public int fresh_snow_mm;
+            public double fresh_snow_mm;
         }
         ///<summary>
         ///Класс, содержащий данные о погоде на вечер
@@ -309,17 +309,17 @@ namespace SunCloud.Model
             ///<summary>
             ///Минимальная температура воздуха
             ///</summary>
-            public int? temp_min;
+            public double? temp_min;
 
             ///<summary>
             ///Средняя температура воздуха
             ///</summary>
-            public int? temp_avg;
+            public double? temp_avg;
 
             ///<summary>
             ///Максимальная температура воздуха
             ///</summary>
-            public int? temp_max;
+            public double? temp_max;
 
             ///<summary>
             ///Скорость ветра
@@ -339,22 +339,22 @@ namespace SunCloud.Model
             ///<summary>
             ///Атмосферное давление в мм рт. ст.
             ///</summary>
-            public int? pressure_mm;
+            public double? pressure_mm;
 
             ///<summary>
             ///Атмосферное давление в Па
             ///</summary>
-            public int? pressure_pa;
+            public double? pressure_pa;
 
             ///<summary>
             ///Относительная влажность воздуха
             ///</summary>
-            public int? humidity;
+            public double? humidity;
 
             ///<summary>
             ///Температура почвы
             ///</summary>
-            public int? soil_temp;
+            public double? soil_temp;
 
             ///<summary>
             ///Влажность почвы
@@ -364,17 +364,17 @@ namespace SunCloud.Model
             ///<summary>
             ///Количество осадков в мм
             ///</summary>
-            public int? prec_mm;
+            public double? prec_mm;
 
             ///<summary>
             ///Вероятность выпадения осадков в %
             ///</summary>
-            public int? prec_prob;
+            public double? prec_prob;
 
             ///<summary>
             ///Продолжительность осадков в минутах
             ///</summary>
-            public int? prec_period;
+            public double? prec_period;
 
             ///<summary>
             ///Облачность в %
@@ -384,12 +384,12 @@ namespace SunCloud.Model
             ///<summary>
             ///Тип осадков
             ///</summary>
-            public int? prec_type;
+            public double? prec_type;
 
             ///<summary>
             ///Интенсивность осадков
             ///</summary>
-            public int? prec_strength;
+            public double? prec_strength;
 
             ///<summary>
             ///Код значка погоды
@@ -404,12 +404,12 @@ namespace SunCloud.Model
             ///<summary>
             ///Ультрафиолетовый индекс
             ///</summary>
-            public int? uv_index;
+            public double? uv_index;
 
             ///<summary>
             ///Ощущаемая температура
             ///</summary>
-            public int? feels_like;
+            public double? feels_like;
 
             ///<summary>
             ///День или ночь
@@ -424,7 +424,7 @@ namespace SunCloud.Model
             ///<summary>
             ///Высота свежевыпавшего снега
             ///</summary>
-            public int? fresh_snow_mm;
+            public double? fresh_snow_mm;
         }
 
         ///<summary>
@@ -435,22 +435,22 @@ namespace SunCloud.Model
             ///<summary>
             ///Время наблюдения за погодой
             ///</summary>
-            public int? obs_time;
+            public double? obs_time;
 
             ///<summary>
             ///Время работы API в секундах
             ///</summary>
-            public int? uptime;
+            public double? uptime;
 
             ///<summary>
             ///Температура воздуха
             ///</summary>
-            public int? temp;
+            public double? temp;
 
             ///<summary>
             ///Ощущаемая температура
             ///</summary>
-            public int? feels_like;
+            public double? feels_like;
 
             ///<summary>
             ///Код значка погоды
@@ -470,17 +470,17 @@ namespace SunCloud.Model
             ///<summary>
             ///Тип осадков
             ///</summary>
-            public int? prec_type;
+            public double? prec_type;
 
             ///<summary>
             ///Вероятность выпадения осадков в %
             ///</summary>
-            public int? prec_prob;
+            public double? prec_prob;
 
             ///<summary>
             ///Интенсивность осадков
             ///</summary>
-            public int? prec_strength;
+            public double? prec_strength;
 
             ///<summary>
             ///Признак грозы
@@ -500,17 +500,17 @@ namespace SunCloud.Model
             ///<summary>
             ///Атмосферное давление в мм рт. ст.
             ///</summary>
-            public int? pressure_mm;
+            public double? pressure_mm;
 
             ///<summary>
             ///Атмосферное давление в Па
             ///</summary>
-            public int? pressure_pa;
+            public double? pressure_pa;
 
             ///<summary>
             ///Относительная влажность воздуха
             ///</summary>
-            public int? humidity;
+            public double? humidity;
 
             ///<summary>
             ///День или ночь
@@ -540,12 +540,12 @@ namespace SunCloud.Model
             ///<summary>
             ///Температура почвы
             ///</summary>
-            public int? soil_temp;
+            public double? soil_temp;
 
             ///<summary>
             ///Ультрафиолетовый индекс
             ///</summary>
-            public int? uv_index;
+            public double? uv_index;
 
             ///<summary>
             ///Порывы ветра
@@ -566,12 +566,12 @@ namespace SunCloud.Model
             /// <summary>
             /// Время в формате Unix
             /// </summary>
-            public int date_ts;
+            public double date_ts;
 
             /// <summary>
             /// Номер недели
             /// </summary>
-            public int week;
+            public double week;
 
             /// <summary>
             /// Время восхода солнца
@@ -596,7 +596,7 @@ namespace SunCloud.Model
             /// <summary>
             /// Код фазы луны
             /// </summary>
-            public int moon_code;
+            public double moon_code;
 
             /// <summary>
             /// Текстовое описание фазы луны
@@ -626,7 +626,7 @@ namespace SunCloud.Model
             /// <summary>
             /// Идентификатор населенного пункта
             /// </summary>
-            public int id;
+            public double id;
 
             /// <summary>
             /// Название населенного пункта
@@ -672,17 +672,17 @@ namespace SunCloud.Model
             /// <summary>
             /// Время в формате Unix
             /// </summary>
-            public int? hour_ts;
+            public double? hour_ts;
 
             /// <summary>
             /// Температура воздуха
             /// </summary>
-            public int? temp;
+            public double? temp;
 
             /// <summary>
             /// Ощущаемая температура
             /// </summary>
-            public int? feels_like;
+            public double? feels_like;
 
             /// <summary>
             /// Код значка погоды
@@ -702,12 +702,12 @@ namespace SunCloud.Model
             /// <summary>
             /// Тип осадков
             /// </summary>
-            public int? prec_type;
+            public double? prec_type;
 
             /// <summary>
             /// Интенсивность осадков
             /// </summary>
-            public int? prec_strength;
+            public double? prec_strength;
 
             /// <summary>
             /// Признак грозы
@@ -732,22 +732,22 @@ namespace SunCloud.Model
             /// <summary>
             /// Атмосферное давление в мм рт. ст.
             /// </summary>
-            public int? pressure_mm;
+            public double? pressure_mm;
 
             /// <summary>
             /// Атмосферное давление в Па
             /// </summary>
-            public int? pressure_pa;
+            public double? pressure_pa;
 
             /// <summary>
             /// Относительная влажность воздуха
             /// </summary>
-            public int? humidity;
+            public double? humidity;
 
             /// <summary>
             /// Температура почвы
             /// </summary>
-            public int? soil_temp;
+            public double? soil_temp;
 
             /// <summary>
             /// Влажность почвы
@@ -757,17 +757,17 @@ namespace SunCloud.Model
             /// <summary>
             /// Количество осадков в мм
             /// </summary>
-            public int? prec_mm;
+            public double? prec_mm;
 
             /// <summary>
             /// Продолжительность осадков в минутах
             /// </summary>
-            public int? prec_period;
+            public double? prec_period;
 
             /// <summary>
             /// Вероятность выпадения осадков в %
             /// </summary>
-            public int? prec_prob;
+            public double? prec_prob;
         }
 
         /// <summary>
@@ -783,7 +783,7 @@ namespace SunCloud.Model
             /// <summary>
             /// Идентификатор географического объекта
             /// </summary>
-            public int? geoid;
+            public double? geoid;
 
             /// <summary>
             /// URL-адрес
@@ -793,12 +793,12 @@ namespace SunCloud.Model
             /// <summary>
             /// Широта
             /// </summary>
-            public int? lat;
+            public double? lat;
 
             /// <summary>
             /// Долгота
             /// </summary>
-            public int? lon;
+            public double? lon;
 
             /// <summary>
             /// Информация о часовом поясе
@@ -808,12 +808,12 @@ namespace SunCloud.Model
             /// <summary>
             /// Атмосферное давление по умолчанию в мм рт. ст.
             /// </summary>
-            public int? def_pressure_mm;
+            public double? def_pressure_mm;
 
             /// <summary>
             /// Атмосферное давление по умолчанию в Па
             /// </summary>
-            public int? def_pressure_pa;
+            public double? def_pressure_pa;
 
             /// <summary>
             /// URL-адрес объекта
@@ -823,7 +823,7 @@ namespace SunCloud.Model
             /// <summary>
             /// Уровень масштабирования карты
             /// </summary>
-            public int? zoom;
+            public double? zoom;
 
             /// <summary>
             /// Признак северо-западного края карты
@@ -868,7 +868,7 @@ namespace SunCloud.Model
             /// <summary>
             /// Температура воздуха
             /// </summary>
-            public int? temp;
+            public double? temp;
 
             /// <summary>
             /// Скорость ветра
@@ -888,22 +888,22 @@ namespace SunCloud.Model
             /// <summary>
             /// Атмосферное давление в мм рт. ст.
             /// </summary>
-            public int? pressure_mm;
+            public double? pressure_mm;
 
             /// <summary>
             /// Атмосферное давление в Па
             /// </summary>
-            public int? pressure_pa;
+            public double? pressure_pa;
 
             /// <summary>
             /// Относительная влажность воздуха
             /// </summary>
-            public int? humidity;
+            public double? humidity;
 
             /// <summary>
             /// Температура почвы
             /// </summary>
-            public int? soil_temp;
+            public double? soil_temp;
 
             /// <summary>
             /// Влажность почвы
@@ -913,17 +913,17 @@ namespace SunCloud.Model
             /// <summary>
             /// Количество осадков в мм
             /// </summary>
-            public int? prec_mm;
+            public double? prec_mm;
 
             /// <summary>
             /// Вероятность выпадения осадков в %
             /// </summary>
-            public int? prec_prob;
+            public double? prec_prob;
 
             /// <summary>
             /// Продолжительность осадков в минутах
             /// </summary>
-            public int? prec_period;
+            public double? prec_period;
 
             /// <summary>
             /// Облачность в %
@@ -933,12 +933,12 @@ namespace SunCloud.Model
             /// <summary>
             /// Тип осадков
             /// </summary>
-            public int? prec_type;
+            public double? prec_type;
 
             /// <summary>
             /// Интенсивность осадков
             /// </summary>
-            public int? prec_strength;
+            public double? prec_strength;
 
             /// <summary>
             /// Код значка погоды
@@ -953,12 +953,12 @@ namespace SunCloud.Model
             /// <summary>
             /// Индекс УФ-излучения
             /// </summary>
-            public int? uv_index;
+            public double? uv_index;
 
             /// <summary>
             /// Ощущаемая температура
             /// </summary>
-            public int? feels_like;
+            public double? feels_like;
 
             /// <summary>
             /// Время суток
@@ -973,7 +973,7 @@ namespace SunCloud.Model
             /// <summary>
             /// Количество свежевыпавшего снега в мм
             /// </summary>
-            public int? fresh_snow_mm;
+            public double? fresh_snow_mm;
         }
         public class Morning
         {
@@ -985,17 +985,17 @@ namespace SunCloud.Model
             /// <summary>
             /// Минимальная температура воздуха
             /// </summary>
-            public int temp_min;
+            public double temp_min;
 
             /// <summary>
             /// Средняя температура воздуха
             /// </summary>
-            public int temp_avg;
+            public double temp_avg;
 
             /// <summary>
             /// Максимальная температура воздуха
             /// </summary>
-            public int temp_max;
+            public double temp_max;
 
             /// <summary>
             /// Скорость ветра
@@ -1015,22 +1015,22 @@ namespace SunCloud.Model
             /// <summary>
             /// Атмосферное давление в мм рт. ст.
             /// </summary>
-            public int pressure_mm;
+            public double pressure_mm;
 
             /// <summary>
             /// Атмосферное давление в Па
             /// </summary>
-            public int pressure_pa;
+            public double pressure_pa;
 
             /// <summary>
             /// Относительная влажность воздуха
             /// </summary>
-            public int humidity;
+            public double humidity;
 
             /// <summary>
             /// Температура почвы
             /// </summary>
-            public int soil_temp;
+            public double soil_temp;
 
             /// <summary>
             /// Влажность почвы
@@ -1040,17 +1040,17 @@ namespace SunCloud.Model
             /// <summary>
             /// Количество осадков в мм
             /// </summary>
-            public int prec_mm;
+            public double prec_mm;
 
             /// <summary>
             /// Вероятность выпадения осадков в %
             /// </summary>
-            public int prec_prob;
+            public double prec_prob;
 
             /// <summary>
             /// Продолжительность осадков в минутах
             /// </summary>
-            public int prec_period;
+            public double prec_period;
 
             /// <summary>
             /// Облачность в %
@@ -1060,12 +1060,12 @@ namespace SunCloud.Model
             /// <summary>
             /// Тип осадков
             /// </summary>
-            public int prec_type;
+            public double prec_type;
 
             /// <summary>
             /// Интенсивность осадков
             /// </summary>
-            public int prec_strength;
+            public double prec_strength;
 
             /// <summary>
             /// Код значка погоды
@@ -1080,12 +1080,12 @@ namespace SunCloud.Model
             /// <summary>
             /// Индекс УФ-излучения
             /// </summary>
-            public int uv_index;
+            public double uv_index;
 
             /// <summary>
             /// Ощущаемая температура
             /// </summary>
-            public int feels_like;
+            public double feels_like;
 
             /// <summary>
             /// Время суток
@@ -1100,7 +1100,7 @@ namespace SunCloud.Model
             /// <summary>
             /// Количество свежевыпавшего снега в мм
             /// </summary>
-            public int FreshSnowMm;
+            public double FreshSnowMm;
         }
         /// <summary>
         /// Класс, представляющий ночную погоду
@@ -1114,15 +1114,15 @@ namespace SunCloud.Model
             /// <summary>
             /// Минимальная температура воздуха в градусах Цельсия
             /// </summary>
-            public int? temp_min;
+            public double? temp_min;
             /// <summary>
             /// Средняя температура воздуха в градусах Цельсия
             /// </summary>
-            public int? temp_avg;
+            public double? temp_avg;
             /// <summary>
             /// Максимальная температура воздуха в градусах Цельсия
             /// </summary>
-            public int? temp_max;
+            public double? temp_max;
             /// <summary>
             /// Скорость ветра в м/с
             /// </summary>
@@ -1138,19 +1138,19 @@ namespace SunCloud.Model
             /// <summary>
             /// Атмосферное давление в мм рт. ст.
             /// </summary>
-            public int? pressure_mm;
+            public double? pressure_mm;
             /// <summary>
             /// Атмосферное давление в Па
             /// </summary>
-            public int? pressure_pa;
+            public double? pressure_pa;
             /// <summary>
             /// Влажность воздуха в процентах
             /// </summary>
-            public int? humidity;
+            public double? humidity;
             /// <summary>
             /// Температура почвы в градусах Цельсия
             /// </summary>
-            public int? soil_temp;
+            public double? soil_temp;
             /// <summary>
             /// Влажность почвы в процентах
             /// </summary>
@@ -1158,15 +1158,15 @@ namespace SunCloud.Model
             /// <summary>
             /// Количество осадков в мм
             /// </summary>
-            public int? prec_mm;
+            public double? prec_mm;
             /// <summary>
             /// Вероятность выпадения осадков в процентах
             /// </summary>
-            public int? prec_prob;
+            public double? prec_prob;
             /// <summary>
             /// Продолжительность осадков в минутах
             /// </summary>
-            public int? prec_period;
+            public double? prec_period;
             /// <summary>
             /// Облачность в процентах
             /// </summary>
@@ -1174,11 +1174,11 @@ namespace SunCloud.Model
             /// <summary>
             /// Тип осадков
             /// </summary>
-            public int? prec_type;
+            public double? prec_type;
             /// <summary>
             /// Интенсивность осадков
             /// </summary>
-            public int? prec_strength;
+            public double? prec_strength;
             /// <summary>
             /// Иконка, соответствующая погодным условиям
             /// </summary>
@@ -1190,11 +1190,11 @@ namespace SunCloud.Model
             /// <summary>
             /// Индекс УФ-излучения
             /// </summary>
-            public int? uv_index;
+            public double? uv_index;
             /// <summary>
             /// Ощущаемая температура воздуха в градусах Цельсия
             /// </summary>
-            public int? feels_like;
+            public double? feels_like;
             /// <summary>
             /// Время суток: "ночь", "утро", "день" или "вечер"
             /// </summary>
@@ -1206,7 +1206,7 @@ namespace SunCloud.Model
             /// <summary>
             /// Количество свежевыпавшего снега в мм
             /// </summary>
-            public int? fresh_snow_mm;
+            public double? fresh_snow_mm;
         }
 
         /// <summary>
@@ -1251,7 +1251,7 @@ namespace SunCloud.Model
             /// <summary>
             /// Идентификатор региона
             /// </summary>
-            public int? id;
+            public double? id;
             /// <summary>
             /// Название региона
             /// </summary>
@@ -1266,7 +1266,7 @@ namespace SunCloud.Model
             /// <summary>
             /// Текущая температура воздуха
             /// </summary>
-            public int? now;
+            public double? now;
             /// <summary>
             /// Текущее время и дата
             /// </summary>
@@ -1313,7 +1313,7 @@ namespace SunCloud.Model
             /// <summary>
             /// Смещение от UTC в секундах
             /// </summary>
-            public int? offset;
+            public double? offset;
         }
 
         /// <summary>
@@ -1324,7 +1324,7 @@ namespace SunCloud.Model
             /// <summary>
             /// Средняя температура воздуха за прошедший день
             /// </summary>
-            public int? temp;
+            public double? temp;
         }
     }
 

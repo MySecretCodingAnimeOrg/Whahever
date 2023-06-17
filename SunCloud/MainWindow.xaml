@@ -5,8 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SunCloud"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-    
+        Title="MainWindow" Height="480" Width="800">
+    <Grid x:Name="Grid">
+        <TextBox Margin="0,0,0,0" x:Name="extBox" VerticalAlignment="Top" Height="90" Text=""/>
+        <ListBox Margin="0,100" x:Name="Box" d:ItemsSource="{d:SampleData ItemCount=5}"/>
+        <Button x:Name="Button" Height="50" VerticalAlignment="Bottom" Content="Узнать" Click="Button_Click"/>
     </Grid>
 </Window>
