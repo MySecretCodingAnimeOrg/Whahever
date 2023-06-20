@@ -173,3 +173,7 @@ D:\Whahever\WpfApp2\WpfApp2\obj\Debug\net6.0-windows\App.baml
 \\Mac\Home\Documents\GitHub\Whahever\WpfApp2\WpfApp2\obj\Debug\net6.0-windows\UС_Min_info_Long_block.baml
 \\Mac\Home\Documents\GitHub\Whahever\WpfApp2\WpfApp2\obj\Debug\net6.0-windows\Properties\Styles\DayTheme_elements\Big_number_label.baml
 \\Mac\Home\Documents\GitHub\Whahever\WpfApp2\WpfApp2\obj\Debug\net6.0-windows\Properties\Styles\DayTheme_elements\Long_label_text.baml
+\\Mac\Home\Documents\GitHub\Whahever\WpfApp2\WpfApp2\obj\Debug\net6.0-windows\Weather_Page.g.cs
+\\Mac\Home\Documents\GitHub\Whahever\WpfApp2\WpfApp2\obj\Debug\net6.0-windows\Weather_Page.baml
+\\Mac\Home\Documents\GitHub\Whahever\WpfApp2\WpfApp2\obj\Debug\net6.0-windows\Settings_Page.g.cs
+\\Mac\Home\Documents\GitHub\Whahever\WpfApp2\WpfApp2\obj\Debug\net6.0-windows\Settings_Page.baml

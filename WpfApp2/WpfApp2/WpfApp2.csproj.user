@@ -7,6 +7,9 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="Settings_Page.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="UC_Left_Menu.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -17,6 +20,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="UС_Min_info_Long_block.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Weather_Page.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Window2.xaml.cs">
@@ -141,6 +147,9 @@
     <Page Update="Properties\Styles\NightTheme_elements\TextBox_Style.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="Settings_Page.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="UC_Left_Menu.xaml">
       <SubType>Designer</SubType>
     </Page>
@@ -151,6 +160,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="UС_Min_info_Long_block.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Weather_Page.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Window2.xaml">

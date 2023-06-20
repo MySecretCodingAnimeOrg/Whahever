@@ -23,17 +23,22 @@ namespace WpfApp2
         {
             InitializeComponent();
             Application.Current.MainWindow = this;
+            PageFrame.Content = new Weather_Page();
+
 
         }
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            App.Theme = "NightTheme";
+            //App.Theme = "NightTheme";
 
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            App.Theme = "DayTheme";
+
+            //App.Theme = "DayTheme";
+            PageFrame.Content = new Weather_Page();
+
         }
 
         private void Window_MouseDown(object sender, MouseButtonEventArgs e)
@@ -44,7 +49,8 @@ namespace WpfApp2
 
         private void Settings_Page(object sender, RoutedEventArgs e)
         {
-            App.Theme = "MorningTheme";
+            PageFrame.Content = new Settings_Page();
+            //App.Theme = "MorningTheme";
         }
     }
 }
