@@ -32,10 +32,10 @@ namespace WpfApp2
         }
         public App() { 
             InitializeComponent();
-            //WpfApp2.Properties.Settings.Default.CurrentTheme = "DayTheme";
-            //WpfApp2.Properties.Settings.Default.Save();
+            WpfApp2.Properties.Settings.Default.CurrentTheme = "DayTheme";
+            WpfApp2.Properties.Settings.Default.Save();
 
-            //Theme = WpfApp2.Properties.Settings.Default.CurrentTheme;
+            Theme = WpfApp2.Properties.Settings.Default.CurrentTheme;
         }
 
 

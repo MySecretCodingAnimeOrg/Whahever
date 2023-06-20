@@ -14,6 +14,8 @@
             <ColumnDefinition Width="0.15*"/>
             <ColumnDefinition Width="0.5*"/>
             <ColumnDefinition Width="0.04*"/>
+            <ColumnDefinition Width="0.005*"/>
+            
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
             <RowDefinition Height="20"/>
@@ -28,6 +30,7 @@
             <RowDefinition Height="0.4*"/>
             <RowDefinition Height="0.4*"/>
             <RowDefinition Height="0.8*"/>
+            <RowDefinition Height="0.001*"/>
 
         </Grid.RowDefinitions>
 
@@ -46,5 +49,11 @@
         <Image Grid.Row="9" Grid.Column="2" Source="/Rainy.png"/>
         
         <Label Content="Ясно БанТагкаыдлваыва ывааы 23" HorizontalContentAlignment="Right" Grid.Row="2" Grid.Column="3" Style="{DynamicResource Label_Style_Blue_Middle}" Margin="0,35,0,70" Grid.RowSpan="3"/>
+        <Rectangle Grid.Column="5" Grid.Row="0"  Grid.RowSpan="12" Fill="#3F000000">
+        <Rectangle.Effect>
+            <DropShadowEffect Color="Black" Direction="32" ShadowDepth="2" Opacity="0.5" />
+        </Rectangle.Effect>
+        </Rectangle>
+
     </Grid>
 </UserControl>

@@ -10,7 +10,16 @@
     <Compile Update="UC_Left_Menu.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="UC_MainWindow_City.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="UC_MRC.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UС_Min_info_Long_block.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Window2.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
@@ -129,7 +138,16 @@
     <Page Update="UC_Left_Menu.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="UC_MainWindow_City.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="UC_MRC.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UС_Min_info_Long_block.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Window2.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

@@ -165,3 +165,9 @@ D:\Whahever\WpfApp2\WpfApp2\obj\Debug\net6.0-windows\App.baml
 \\Mac\Home\Documents\GitHub\Whahever\WpfApp2\WpfApp2\obj\Debug\net6.0-windows\Properties\Styles\NightTheme_elements\TextBox_Style.baml
 \\Mac\Home\Documents\GitHub\Whahever\WpfApp2\WpfApp2\obj\Debug\net6.0-windows\Properties\Styles\DayTheme_elements\Label_Style_Time_and_Text_Left_Menu.baml
 \\Mac\Home\Documents\GitHub\Whahever\WpfApp2\WpfApp2\obj\Debug\net6.0-windows\Properties\Styles\MorningTheme_elements\Label_Style_Time_and_Text_Left_Menu.baml
+\\Mac\Home\Documents\GitHub\Whahever\WpfApp2\WpfApp2\obj\Debug\net6.0-windows\Window2.g.cs
+\\Mac\Home\Documents\GitHub\Whahever\WpfApp2\WpfApp2\obj\Debug\net6.0-windows\Window2.baml
+\\Mac\Home\Documents\GitHub\Whahever\WpfApp2\WpfApp2\obj\Debug\net6.0-windows\UC_MainWindow_City.g.cs
+\\Mac\Home\Documents\GitHub\Whahever\WpfApp2\WpfApp2\obj\Debug\net6.0-windows\UC_MainWindow_City.baml
+\\Mac\Home\Documents\GitHub\Whahever\WpfApp2\WpfApp2\obj\Debug\net6.0-windows\UС_Min_info_Long_block.g.cs
+\\Mac\Home\Documents\GitHub\Whahever\WpfApp2\WpfApp2\obj\Debug\net6.0-windows\UС_Min_info_Long_block.baml
