@@ -23,23 +23,25 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="20"/>
             <RowDefinition Height="0.4*"/>
-            <RowDefinition Height="0.8*"/>
+            <RowDefinition Height="0.05*"/>
+            <RowDefinition Height="0.5*"/>
             <RowDefinition Height="0.2*"/>
             <RowDefinition Height="1.4*"/>
             <RowDefinition Height="0.2*"/>
             <RowDefinition Height="2*"/>
             <RowDefinition Height="0.2*"/>
         </Grid.RowDefinitions>
-        <local:UC_Left_Menu Grid.Column="0" Grid.Row="0" Grid.RowSpan="8"/>
+        <local:UС_Min_info_Long_block Grid.Column="2" Grid.Row="3" Grid.ColumnSpan="3" />
+        <local:UC_Left_Menu Grid.Column="0" Grid.Row="0" Grid.RowSpan="9"/>
         <local:UC_MRC Grid.Column="4" Grid.ColumnSpan="2" Height="NaN" Width="NaN" VerticalAlignment="Center" Padding="0,0,1,0" Margin="391,0,0,0"/>
-        <Button Content="Button" Style="{DynamicResource but1}" Click="Button_Click" HorizontalAlignment="Left"  VerticalAlignment="Top" Grid.Column="2" Grid.Row="4"/>
-        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Grid.Column="2"  Grid.Row="3"/>
+        <Button Content="Button" Style="{DynamicResource but1}" Click="Button_Click" HorizontalAlignment="Left"  VerticalAlignment="Top" Grid.Column="2" Grid.Row="5" Margin="25,30,0,0"/>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Grid.Column="2"  Grid.Row="5"/>
         <TextBox HorizontalAlignment="Left" Style="{DynamicResource TextBox_Style}" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" Grid.Column="4" Margin="55,66,0,0" Grid.Row="4"/>
-        <Button x:Name="ban" Content="Button" HorizontalAlignment="Left" Style="{DynamicResource Button_Cliked}"  VerticalAlignment="Top" Click="Button_Click_1" Grid.Column="4"  Grid.Row="3"/>
+        <Button x:Name="ban" Content="Button" HorizontalAlignment="Left" Style="{DynamicResource Button_Cliked}"  VerticalAlignment="Top" Click="Button_Click_1" Grid.Column="4"  Grid.Row="5" Margin="55,40,0,0"/>
         <Button x:Name="ban1" Content="Button" HorizontalAlignment="Center" Style="{DynamicResource Button_underLine_Big}"  VerticalContentAlignment="Center" HorizontalContentAlignment="Left" Click="Button_Click_1" Grid.Column="2" Grid.Row="1" Height="68" Width="464"/>
         <Button x:Name="Settings_Button" Content="Settings" HorizontalAlignment="Center" Style="{DynamicResource Button_underLine_Big}"  VerticalContentAlignment="Center" HorizontalContentAlignment="Right" Click="Settings_Page" Grid.Column="4" Grid.Row="1" Height="68" Width="464"/>
         <Label Content="Label" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Style="{DynamicResource Label_Style}" BorderThickness="0" Grid.Row="6" Grid.Column="4" Grid.ColumnSpan="2" Margin="0,34,37,170"/>
-        <Label Content="Label" HorizontalContentAlignment="Center" HorizontalAlignment="Stretch" VerticalAlignment="Center" VerticalContentAlignment="Center" Style="{DynamicResource Label_Style_Blue_Middle}" Grid.Row="4" Grid.Column="2"  />
+        <Label Content="Label" HorizontalContentAlignment="Center" VerticalAlignment="Top" VerticalContentAlignment="Center" Style="{DynamicResource Label_Style_Blue_Middle}" Grid.Row="5" Grid.Column="1" Grid.ColumnSpan="2" Margin="27,99,10,0"  />
 
     </Grid>
 
