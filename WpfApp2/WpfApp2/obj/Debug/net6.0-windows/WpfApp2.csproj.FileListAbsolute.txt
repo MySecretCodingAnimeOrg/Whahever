@@ -177,3 +177,5 @@ D:\Whahever\WpfApp2\WpfApp2\obj\Debug\net6.0-windows\App.baml
 \\Mac\Home\Documents\GitHub\Whahever\WpfApp2\WpfApp2\obj\Debug\net6.0-windows\Weather_Page.baml
 \\Mac\Home\Documents\GitHub\Whahever\WpfApp2\WpfApp2\obj\Debug\net6.0-windows\Settings_Page.g.cs
 \\Mac\Home\Documents\GitHub\Whahever\WpfApp2\WpfApp2\obj\Debug\net6.0-windows\Settings_Page.baml
+\\Mac\Home\Documents\GitHub\Whahever\WpfApp2\WpfApp2\obj\Debug\net6.0-windows\Properties\Styles\DayTheme_elements\Shadow_for_image_of_weather.baml
+\\Mac\Home\Documents\GitHub\Whahever\WpfApp2\WpfApp2\obj\Debug\net6.0-windows\Properties\Styles\DayTheme_elements\radio_button.baml

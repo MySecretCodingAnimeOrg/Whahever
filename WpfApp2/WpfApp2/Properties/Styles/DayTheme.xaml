@@ -16,5 +16,7 @@
         <ResourceDictionary Source="DayTheme_elements/Label_Style_Time_and_Text_Left_Menu.xaml"/>
         <ResourceDictionary Source="DayTheme_elements/Big_number_label.xaml"/>
         <ResourceDictionary Source="DayTheme_elements/Long_label_text.xaml"/>
+        <ResourceDictionary Source="DayTheme_elements/Shadow_for_image_of_weather.xaml"/>
+        <ResourceDictionary Source="DayTheme_elements/radio_button.xaml"/>
     </ResourceDictionary.MergedDictionaries>
 </ResourceDictionary>

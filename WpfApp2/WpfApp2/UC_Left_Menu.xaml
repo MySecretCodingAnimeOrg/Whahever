@@ -43,10 +43,13 @@
         <Label Content="16:00" HorizontalContentAlignment="Center" VerticalAlignment="Center" VerticalContentAlignment="Center" Style="{DynamicResource Label_Style_Time_and_Text_Left_Menu}" Grid.Row="9"  Grid.Column="1" />
         <Label Content="sdf" HorizontalContentAlignment="Left" VerticalAlignment="Center" VerticalContentAlignment="Center" Style="{DynamicResource Label_Style_Time_and_Text_Left_Menu}" Grid.Row="9"  Grid.Column="3" Margin="0,0,149,0" Height="70" />
 
-        <Image Grid.Row="3" Grid.Column="2" Source="/Sunny.png"/>
-        <Image Grid.Row="5" Grid.Column="2" Source="/Sunny.png"/>
-        <Image Grid.Row="7" Grid.Column="2" Source="/Cloudy.png"/>
-        <Image Grid.Row="9" Grid.Column="2" Source="/Rainy.png"/>
+        <Image Grid.Row="3" Grid.Column="2" Source="/Sunny.png" Style="{DynamicResource Shadow_for_image_of_weather}"/>
+
+
+
+        <Image Grid.Row="5" Grid.Column="2" Source="/Sunny.png" Style="{DynamicResource Shadow_for_image_of_weather}"/>
+        <Image Grid.Row="7" Grid.Column="2" Source="/Cloudy.png" Style="{DynamicResource Shadow_for_image_of_weather}"/>
+        <Image Grid.Row="9" Grid.Column="2" Source="/Rainy.png" Style="{DynamicResource Shadow_for_image_of_weather}"/>
         
         <Label Content="Ясно БанТагкаыдлваыва ывааы 23" HorizontalContentAlignment="Right" Grid.Row="2" Grid.Column="3" Style="{DynamicResource Label_Style_Blue_Middle}" Margin="0,35,0,70" Grid.RowSpan="3"/>
         <Rectangle Grid.Column="5" Grid.Row="0"  Grid.RowSpan="12" Fill="#3F000000">

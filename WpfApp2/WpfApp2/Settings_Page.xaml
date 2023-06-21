@@ -18,13 +18,21 @@
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
 
-            <RowDefinition Height="0.5*"/>
-            <RowDefinition Height="0.2*"/>
+            <RowDefinition Height="0.7*"/>
+            <RowDefinition Height="0.3*"/>
+            <RowDefinition Height="0.7*"/>
             <RowDefinition Height="1.4*"/>
-            <RowDefinition Height="0.2*"/>
-            <RowDefinition Height="2*"/>
+            <RowDefinition Height="0.5*"/>
+            <RowDefinition Height="0.7*"/>
+            <RowDefinition Height="0.9*"/>
+
+            <RowDefinition Height="0.4*"/>
         </Grid.RowDefinitions>
-        <Label Content="Ваш основной город:" HorizontalContentAlignment="Center" FontSize="28px" Grid.Row="0" Grid.Column="0" Style="{DynamicResource Label_Style_Blue_Middle}" Grid.ColumnSpan="3" />
+        <Label Content="Ваш основной город:" Foreground="#FFFFFF" HorizontalContentAlignment="Center" FontSize="28px" Grid.Row="0" Grid.Column="0" Style="{DynamicResource Label_Style_Blue_Middle}" Grid.ColumnSpan="3" />
+        <Label Content="Избранные города:" Foreground="#FFFFFF" HorizontalContentAlignment="Center" FontSize="28px" Grid.Row="2" Grid.Column="0" Style="{DynamicResource Label_Style_Blue_Middle}" Grid.ColumnSpan="3" />
+        <Label Content="Исчисление градусов:" Foreground="#FFFFFF" HorizontalContentAlignment="Center" FontSize="28px" Grid.Row="5" Grid.Column="0" Style="{DynamicResource Label_Style_Blue_Middle}" Grid.ColumnSpan="3" />
+        <RadioButton Grid.Column="1" Content="RadioButton" HorizontalAlignment="Left" Style="{DynamicResource radio_button}" Margin="30,0,0,0" Grid.Row="6" VerticalAlignment="Top" Grid.ColumnSpan="2"/>
+        <RadioButton Grid.Column="0" Content="RadioButton" HorizontalAlignment="Left" Margin="287,0,0,0" Grid.Row="6" VerticalAlignment="Top"/>
 
     </Grid>
 </Page>
