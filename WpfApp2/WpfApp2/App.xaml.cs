@@ -32,44 +32,44 @@ namespace WpfApp2
         }
         public async Task CheckTimeAsync()
         {
-           
-            DateTime currentTime = DateTime.Now;
-            if (currentTime.Minute >= 0 && currentTime.Minute <= 3)
+            while (true)
             {
-                WpfApp2.Properties.Settings.Default.CurrentTheme = "NightTheme";
-                WpfApp2.Properties.Settings.Default.Save();
-                Theme = WpfApp2.Properties.Settings.Default.CurrentTheme;
-            }
-            else if(currentTime.Minute >= 4 && currentTime.Minute <= 11)
-            {
-                WpfApp2.Properties.Settings.Default.CurrentTheme = "MorningTheme";
-                WpfApp2.Properties.Settings.Default.Save();
-                Theme = WpfApp2.Properties.Settings.Default.CurrentTheme;
-            }
-            else if (currentTime.Minute >= 12 && currentTime.Minute <= 16)
-            {
-                //DayTheme
 
-                WpfApp2.Properties.Settings.Default.CurrentTheme = "DayTheme";
-                WpfApp2.Properties.Settings.Default.Save();
-                Theme = WpfApp2.Properties.Settings.Default.CurrentTheme;
-            }   
-            else if (currentTime.Minute >= 17 && currentTime.Hour <= 23)
-            {
-                WpfApp2.Properties.Settings.Default.CurrentTheme = "MorningTheme";
-                WpfApp2.Properties.Settings.Default.Save();
-                Theme = WpfApp2.Properties.Settings.Default.CurrentTheme;
+                DateTime currentTime = DateTime.Now;
+                if (currentTime.Hour >= 0 && currentTime.Hour <= 3)
+                {
+                    WpfApp2.Properties.Settings.Default.CurrentTheme = "NightTheme";
+                    WpfApp2.Properties.Settings.Default.Save();
+                    Theme = WpfApp2.Properties.Settings.Default.CurrentTheme;
+                }
+                else if (currentTime.Hour >= 4 && currentTime.Hour <= 9)
+                {
+                    WpfApp2.Properties.Settings.Default.CurrentTheme = "MorningTheme";
+                    WpfApp2.Properties.Settings.Default.Save();
+                    Theme = WpfApp2.Properties.Settings.Default.CurrentTheme;
+                }
+                else if (currentTime.Hour >= 10 && currentTime.Hour <= 16)
+                {
+                    //DayTheme
+
+                    WpfApp2.Properties.Settings.Default.CurrentTheme = "DayTheme";
+                    WpfApp2.Properties.Settings.Default.Save();
+                    Theme = WpfApp2.Properties.Settings.Default.CurrentTheme;
+                }
+                else if (currentTime.Hour >= 17 && currentTime.Hour <= 23)
+                {
+                    WpfApp2.Properties.Settings.Default.CurrentTheme = "MorningTheme";
+                    WpfApp2.Properties.Settings.Default.Save();
+                    Theme = WpfApp2.Properties.Settings.Default.CurrentTheme;
+                }
+                await Task.Delay(1000);
             }
         }
-        public async Task InitializeApp()
+        
+        public App()
         {
-            
-            await CheckTimeAsync();
-        }
-
-        public App() { 
             InitializeComponent();
-            InitializeApp();
+            CheckTimeAsync();
 
 
 

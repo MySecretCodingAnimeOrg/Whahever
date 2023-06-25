@@ -28,7 +28,6 @@
         <Button x:Name="x" Content="Button" Style="{DynamicResource but1}"  HorizontalAlignment="Left"  VerticalAlignment="Top" Grid.Column="2" Grid.Row="5" Margin="25,30,0,0" Click="x_click"/>
         <Button x:Name="y" Content="Button2" Style="{DynamicResource but1}"  HorizontalAlignment="Left"  VerticalAlignment="Top" Grid.Column="2" Grid.Row="4" Margin="263,30,0,0" Click="Button_Click_1"/>
         <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Grid.Column="2"  Grid.Row="5"/>
-        <TextBox HorizontalAlignment="Left" Style="{DynamicResource TextBox_Style}" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" Grid.Column="4" Margin="55,66,0,0" Grid.Row="4"/>
         <Button x:Name="ban" Content="Button" HorizontalAlignment="Left" Style="{DynamicResource Button_Cliked}"  VerticalAlignment="Top"  Grid.Column="2"  Grid.Row="4" Margin="193,153,0,0" Click="ban_Click"/>
         <Label Content="Label" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Style="{DynamicResource Label_Style}" BorderThickness="0" Grid.Row="6" Grid.Column="4" Grid.ColumnSpan="2" Margin="0,34,37,170"/>
         <Label Content="Label" HorizontalContentAlignment="Center" VerticalAlignment="Top" VerticalContentAlignment="Center" Style="{DynamicResource Label_Style_Blue_Middle}" Grid.Row="5" Grid.Column="1" Grid.ColumnSpan="2" Margin="27,99,10,0"  />

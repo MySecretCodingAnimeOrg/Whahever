@@ -66,6 +66,12 @@
     <Page Update="Properties\Styles\MorningTheme_elements\Label_Style_Blue_Middle.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="Properties\Styles\MorningTheme_elements\TextBox_Style.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Properties\Styles\NightTheme_elements\TextBox_Style.xaml">
+      <SubType>Designer</SubType>
+    </Page>
   </ItemGroup>
 
 </Project>
