@@ -16,6 +16,7 @@
         <ResourceDictionary Source="MorningTheme_elements/Big_number_label.xaml"/>
         <ResourceDictionary Source="MorningTheme_elements/Long_label_text.xaml"/>
         <ResourceDictionary Source="MorningTheme_elements/Shadow_for_image_of_weather.xaml"/>
+        <ResourceDictionary Source="MorningTheme_elements/Radio_button.xaml"/>
         
     </ResourceDictionary.MergedDictionaries>
     

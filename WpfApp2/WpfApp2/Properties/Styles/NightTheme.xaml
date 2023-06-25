@@ -16,5 +16,6 @@
         <ResourceDictionary Source="NightTheme_elements/Big_number_label.xaml"/>
         <ResourceDictionary Source="NightTheme_elements/Shadow_for_image_of_weather.xaml"/>
         <ResourceDictionary Source="NightTheme_elements/Button_Cliked_Style.xaml"/>
+        <ResourceDictionary Source="NightTheme_elements/Radio_button.xaml"/>
     </ResourceDictionary.MergedDictionaries>
 </ResourceDictionary>

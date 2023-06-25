@@ -66,6 +66,9 @@
     <Page Update="Properties\Styles\MorningTheme_elements\Long_label_text.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="Properties\Styles\MorningTheme_elements\Radio_button.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Properties\Styles\MorningTheme_elements\Shadow_for_image_of_weather.xaml">
       <SubType>Designer</SubType>
     </Page>
@@ -169,6 +172,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Properties\Styles\NightTheme_elements\Min_window_Button.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Properties\Styles\NightTheme_elements\Radio_button.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Properties\Styles\NightTheme_elements\Shadow_for_image_of_weather.xaml">

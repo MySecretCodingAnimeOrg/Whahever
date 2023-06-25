@@ -30,11 +30,13 @@
             <RowDefinition Height="0.4*"/>
         </Grid.RowDefinitions>
         <TextBox HorizontalAlignment="Center"  Style="{DynamicResource TextBox_Style}" TextWrapping="Wrap" VerticalAlignment="Center" Width="965" Grid.Column="0" Grid.ColumnSpan="3" Grid.Row="1" Height="35"/>
+        <TextBox HorizontalAlignment="Left"  Style="{DynamicResource TextBox_Style}" materialDesign:HintAssist.Hint="Название города" TextWrapping="Wrap" VerticalAlignment="Center" Width="749" Grid.Column="0" Grid.ColumnSpan="3" Grid.Row="4" Height="40"/>
+        <Button x:Name="x" Content="Добавить город" Style="{DynamicResource but1}"  HorizontalAlignment="Left" Opacity="0.5"  VerticalAlignment="Center" Grid.Column="2" Grid.Row="4" Height="40" Width="216" Margin="248,0,0,0" />
         <Label Content="Ваш основной город:" Foreground="#FFFFFF" HorizontalContentAlignment="Center" FontSize="28px" Grid.Row="0" Grid.Column="0" Style="{DynamicResource Label_Style_Blue_Middle}" Grid.ColumnSpan="3" />
         <Label Content="Избранные города:" Foreground="#FFFFFF" HorizontalContentAlignment="Center" FontSize="28px" Grid.Row="2" Grid.Column="0" Style="{DynamicResource Label_Style_Blue_Middle}" Grid.ColumnSpan="3" />
         <Label Content="Исчисление градусов:" Foreground="#FFFFFF" HorizontalContentAlignment="Center" FontSize="28px" Grid.Row="5" Grid.Column="0" Style="{DynamicResource Label_Style_Blue_Middle}" Grid.ColumnSpan="3" />
-        <RadioButton Grid.Column="1" Content="RadioButton" HorizontalAlignment="Left" Style="{DynamicResource radio_button}" Margin="30,0,0,0" Grid.Row="6" VerticalAlignment="Top" Grid.ColumnSpan="2"/>
-        <RadioButton Grid.Column="0" Content="RadioButton" HorizontalAlignment="Left" Margin="287,0,0,0" Grid.Row="6" VerticalAlignment="Top"/>
+        <RadioButton Grid.Column="2" Content="RadioButton" HorizontalAlignment="Left" Style="{DynamicResource Radio_button}" Margin="23,0,0,0" Grid.Row="6" VerticalAlignment="Top" Height="36" Width="140"/>
+        <RadioButton Grid.Column="0" Content="RadioButton" HorizontalAlignment="Left" Style="{DynamicResource Radio_button}" Margin="321,0,0,0" Grid.Row="6" VerticalAlignment="Top" Width="141" Height="36"/>
 
     </Grid>
 </Page>
