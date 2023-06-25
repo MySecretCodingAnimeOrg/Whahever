@@ -10,6 +10,9 @@
     <Compile Update="Settings_Page.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="UC_Graf.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="UC_Left_Menu.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -178,6 +181,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Settings_Page.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UC_Graf.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="UC_Left_Menu.xaml">

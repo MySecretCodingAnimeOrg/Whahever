@@ -8,7 +8,6 @@
         <Setter Property="Height" Value="38" />
         <Setter Property="Opacity" Value="1" />
         <Setter Property="FontSize" Value="20px" />
-        <Setter Property="FontWeight" Value="Bold" />
         <Setter Property="FontFamily" Value="Jura"/>
         <Setter Property="HorizontalAlignment" Value="Center" />
         <Setter Property="VerticalAlignment" Value="Center" />
