@@ -62,4 +62,10 @@
     <Resource Include="Vector 48.png" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Page Update="Properties\Styles\MorningTheme_elements\Label_Style_Blue_Middle.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+
 </Project>

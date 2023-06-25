@@ -1,12 +1,9 @@
 ﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
     <Style TargetType="UserControl" x:Key="Fone">
         <Setter Property="Background" Value="#80F8C5B4"/>
-        <Setter Property="Effect">
-            <Setter.Value>
-                <DropShadowEffect BlurRadius="5" Direction="270" ShadowDepth="3" Opacity="0.5" />
-            </Setter.Value>
-        </Setter>
+        
 
 
     </Style>

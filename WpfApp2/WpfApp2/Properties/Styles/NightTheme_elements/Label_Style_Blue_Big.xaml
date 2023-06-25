@@ -2,10 +2,10 @@
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
     <Style TargetType="Label" x:Key="Label_Style_Blue_Big">
         <Setter Property="BorderThickness" Value="0,0,0,2"/>
-        <Setter Property="BorderBrush" Value="#3D95B9" />
+        <Setter Property="BorderBrush" Value="#591E6E" />
         <Setter Property="FontFamily" Value="Jura"/>
-        <Setter Property="Foreground" Value="#3D95B9"/>
-        <Setter Property="FontSize" Value="36"/>
+        <Setter Property="Foreground" Value="#591E6E"/>
+        <Setter Property="FontSize" Value="36px"/>
         <Setter Property="TextBlock.TextDecorations">
             <Setter.Value>
                 <TextDecorationCollection>

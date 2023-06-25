@@ -48,6 +48,9 @@
     <Page Update="Properties\Styles\DayTheme_elements\Shadow_for_image_of_weather.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="Properties\Styles\MorningTheme_elements\Big_number_label.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Properties\Styles\MorningTheme_elements\Button_underLine_Big.xaml">
       <SubType>Designer</SubType>
     </Page>
@@ -57,13 +60,25 @@
     <Page Update="Properties\Styles\MorningTheme_elements\Label_Style_Time_and_Text_Left_Menu.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="Properties\Styles\MorningTheme_elements\Long_label_text.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Properties\Styles\MorningTheme_elements\Shadow_for_image_of_weather.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Properties\Styles\NightTheme.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Properties\Styles\NightTheme_elements\BackGround.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="Properties\Styles\NightTheme_elements\Big_number_label.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Properties\Styles\NightTheme_elements\Block_Style.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Properties\Styles\NightTheme_elements\Button_Cliked_Style.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Properties\Styles\NightTheme_elements\Button_Style.xaml">
@@ -144,7 +159,16 @@
     <Page Update="Properties\Styles\NightTheme_elements\Label_Style_Blue_Middle.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="Properties\Styles\NightTheme_elements\Label_Style_Time_and_Text_Left_Menu.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Properties\Styles\NightTheme_elements\Long_label_text.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Properties\Styles\NightTheme_elements\Min_window_Button.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Properties\Styles\NightTheme_elements\Shadow_for_image_of_weather.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Properties\Styles\NightTheme_elements\TextBlock_Style.xaml">

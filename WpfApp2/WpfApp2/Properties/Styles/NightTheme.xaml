@@ -11,5 +11,10 @@
         <ResourceDictionary Source="NightTheme_elements/Min_window_Button.xaml"/>
         <ResourceDictionary Source="NightTheme_elements/Block_Style.xaml"/>
         <ResourceDictionary Source="NightTheme_elements/Label_Style_Blue_Middle.xaml"/>
+        <ResourceDictionary Source="NightTheme_elements/Label_Style_Time_and_Text_Left_Menu.xaml"/>
+        <ResourceDictionary Source="NightTheme_elements/Long_label_text.xaml"/>
+        <ResourceDictionary Source="NightTheme_elements/Big_number_label.xaml"/>
+        <ResourceDictionary Source="NightTheme_elements/Shadow_for_image_of_weather.xaml"/>
+        <ResourceDictionary Source="NightTheme_elements/Button_Cliked_Style.xaml"/>
     </ResourceDictionary.MergedDictionaries>
 </ResourceDictionary>

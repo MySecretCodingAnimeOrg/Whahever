@@ -24,5 +24,26 @@ namespace WpfApp2
         {
             InitializeComponent();
         }
+
+        
+
+        private void ban_Click(object sender, RoutedEventArgs e)
+        {
+            App.Theme = "NightTheme";
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            App.Theme = "MorningTheme";
+
+        }
+
+        private void x_click(object sender, RoutedEventArgs e)
+        {
+            //this.Resources["but1"] = this.Resource["dynamicResource"];
+            //x.Background = this.FindResource("dynamicResource");
+            App.Theme = "DayTheme";
+
+        }
     }
 }
