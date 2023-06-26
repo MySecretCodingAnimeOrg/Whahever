@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QU0Tjr42Wsv4O/5XHqYKmIB6MlN9lbfZgf2R7YXKUh4fWEGjB9XD5EgtrxfRi0Ky/HY8QxWCuLeBKcmg08m41Q==",
+  "dgSpecHash": "J7zu20EvfJ55BOgGv/KMoDBYWdZkDiMUfF46YUlvVoalS+BVhmU2Ji+wzEyIlXyXzHiB9ujq1RlCYFK+xaN7/g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Даниил Селезнев\\Desktop\\Whahever-cola-ui-lib\\WpfApp2\\WpfApp2\\WpfApp2.csproj",
+  "projectFilePath": "C:\\Users\\Даниил Селезнев\\Documents\\GitHub\\Whahever\\WpfApp2\\WpfApp2\\WpfApp2.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Даниил Селезнев\\.nuget\\packages\\materialdesigncolors\\2.1.4\\materialdesigncolors.2.1.4.nupkg.sha512",
     "C:\\Users\\Даниил Селезнев\\.nuget\\packages\\materialdesignthemes\\4.9.0\\materialdesignthemes.4.9.0.nupkg.sha512",

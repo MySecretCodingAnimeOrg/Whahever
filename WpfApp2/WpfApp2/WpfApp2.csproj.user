@@ -7,33 +7,36 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
-    <Compile Update="Settings_Page.xaml.cs">
+    <Compile Update="View\SettingsView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="UC_Graf.xaml.cs">
+    <Compile Update="View\UC_GrafView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="UC_Left_Menu.xaml.cs">
+    <Compile Update="View\UC_Left_MenuView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="UC_MainWindow_City.xaml.cs">
+    <Compile Update="View\UC_MainWindow_CityView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="UC_MRC.xaml.cs">
+    <Compile Update="View\UC_MRCView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="UС_Min_info_Long_block.xaml.cs">
+    <Compile Update="View\UС_Min_info_Long_blockView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Weather_Page.xaml.cs">
+    <Compile Update="View\WeatherView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Window2.xaml.cs">
+    <Compile Update="View\Window2.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Page Update="MainWindow.xaml">
+    <Page Update="Images.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\StartView.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Properties\Styles\DayTheme_elements\Big_number_label.xaml">
@@ -186,28 +189,28 @@
     <Page Update="Properties\Styles\NightTheme_elements\TextBox_Style.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Settings_Page.xaml">
+    <Page Update="View\SettingsView.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="UC_Graf.xaml">
+    <Page Update="View\UC_GrafView.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="UC_Left_Menu.xaml">
+    <Page Update="View\UC_Left_MenuView.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="UC_MainWindow_City.xaml">
+    <Page Update="View\UC_MainWindow_CityView.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="UC_MRC.xaml">
+    <Page Update="View\UC_MRCView.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="UС_Min_info_Long_block.xaml">
+    <Page Update="View\UС_Min_info_Long_blockView.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Weather_Page.xaml">
+    <Page Update="View\WeatherView.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Window2.xaml">
+    <Page Update="View\Window2.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

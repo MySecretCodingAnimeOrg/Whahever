@@ -64,7 +64,7 @@ namespace WpfApp2 {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/WpfApp2;component/uc_mainwindow_city.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/WpfApp2;V1.0.0.0;component/uc_mainwindow_city.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\UC_MainWindow_City.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

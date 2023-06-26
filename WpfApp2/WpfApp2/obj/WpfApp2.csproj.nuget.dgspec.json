@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Даниил Селезнев\\Desktop\\Whahever-cola-ui-lib\\WpfApp2\\WpfApp2\\WpfApp2.csproj": {}
+    "C:\\Users\\Даниил Селезнев\\Documents\\GitHub\\Whahever\\WpfApp2\\WpfApp2\\WpfApp2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Даниил Селезнев\\Desktop\\Whahever-cola-ui-lib\\WpfApp2\\WpfApp2\\WpfApp2.csproj": {
+    "C:\\Users\\Даниил Селезнев\\Documents\\GitHub\\Whahever\\WpfApp2\\WpfApp2\\WpfApp2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Даниил Селезнев\\Desktop\\Whahever-cola-ui-lib\\WpfApp2\\WpfApp2\\WpfApp2.csproj",
+        "projectUniqueName": "C:\\Users\\Даниил Селезнев\\Documents\\GitHub\\Whahever\\WpfApp2\\WpfApp2\\WpfApp2.csproj",
         "projectName": "WpfApp2",
-        "projectPath": "C:\\Users\\Даниил Селезнев\\Desktop\\Whahever-cola-ui-lib\\WpfApp2\\WpfApp2\\WpfApp2.csproj",
+        "projectPath": "C:\\Users\\Даниил Селезнев\\Documents\\GitHub\\Whahever\\WpfApp2\\WpfApp2\\WpfApp2.csproj",
         "packagesPath": "C:\\Users\\Даниил Селезнев\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Даниил Селезнев\\Desktop\\Whahever-cola-ui-lib\\WpfApp2\\WpfApp2\\obj\\",
+        "outputPath": "C:\\Users\\Даниил Селезнев\\Documents\\GitHub\\Whahever\\WpfApp2\\WpfApp2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

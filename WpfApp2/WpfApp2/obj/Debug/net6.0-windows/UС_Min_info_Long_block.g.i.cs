@@ -53,7 +53,7 @@ namespace WpfApp2 {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/WpfApp2;component/u%d0%a1_min_info_long_block.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/WpfApp2;V1.0.0.0;component/u%d0%a1_min_info_long_block.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\UС_Min_info_Long_block.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
