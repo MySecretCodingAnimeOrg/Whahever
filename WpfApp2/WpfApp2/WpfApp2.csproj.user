@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Settings_Page.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UC_Graf.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UC_Left_Menu.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UC_MainWindow_City.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UC_MRC.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UС_Min_info_Long_block.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Weather_Page.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Window2.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Properties\Styles\DayTheme_elements\Big_number_label.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Properties\Styles\DayTheme_elements\Label_Style_Time_and_Text_Left_Menu.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Properties\Styles\DayTheme_elements\Long_label_text.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Properties\Styles\DayTheme_elements\radio_button.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Properties\Styles\DayTheme_elements\Shadow_for_image_of_weather.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Properties\Styles\MorningTheme_elements\Big_number_label.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Properties\Styles\MorningTheme_elements\Button_underLine_Big.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Properties\Styles\MorningTheme_elements\Label_Style_Blue_Middle.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Properties\Styles\MorningTheme_elements\Label_Style_Time_and_Text_Left_Menu.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Properties\Styles\MorningTheme_elements\Long_label_text.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Properties\Styles\MorningTheme_elements\Radio_button.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Properties\Styles\MorningTheme_elements\Shadow_for_image_of_weather.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Properties\Styles\NightTheme.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Properties\Styles\NightTheme_elements\BackGround.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Properties\Styles\NightTheme_elements\Big_number_label.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Properties\Styles\NightTheme_elements\Block_Style.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Properties\Styles\NightTheme_elements\Button_Cliked_Style.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Properties\Styles\NightTheme_elements\Button_Style.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Properties\Styles\NightTheme_elements\Button_underLine_Big.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Properties\Styles\NightTheme_elements\Label_Style.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Properties\Styles\NightTheme_elements\Label_Style_Blue_Big.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Properties\Styles\DayTheme.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Properties\Styles\DayTheme_elements\BackGround.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Properties\Styles\DayTheme_elements\Block_Style.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Properties\Styles\DayTheme_elements\Button_Cliked_Style.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Properties\Styles\DayTheme_elements\Button_Style.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Properties\Styles\DayTheme_elements\elem_Style.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Properties\Styles\DayTheme_elements\Label_Style.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Properties\Styles\DayTheme_elements\Label_Style_Blue_Big.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Properties\Styles\DayTheme_elements\Label_Style_Blue_Middle.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Properties\Styles\DayTheme_elements\Min_window_Button.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Properties\Styles\DayTheme_elements\TextBox_Style.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Properties\Styles\MorningTheme.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Properties\Styles\MorningTheme_elements\BackGround.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Properties\Styles\MorningTheme_elements\Block_Style.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Properties\Styles\MorningTheme_elements\Button_Cliked_Style.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Properties\Styles\MorningTheme_elements\Button_Style.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Properties\Styles\MorningTheme_elements\elem_Style.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Properties\Styles\MorningTheme_elements\Label_Style.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Properties\Styles\MorningTheme_elements\Label_Style_Blue_Big.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Properties\Styles\MorningTheme_elements\Min_window_Button.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Properties\Styles\MorningTheme_elements\TextBox_Style.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Properties\Styles\NightTheme_elements\Label_Style_Blue_Middle.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Properties\Styles\NightTheme_elements\Label_Style_Time_and_Text_Left_Menu.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Properties\Styles\NightTheme_elements\Long_label_text.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Properties\Styles\NightTheme_elements\Min_window_Button.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Properties\Styles\NightTheme_elements\Radio_button.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Properties\Styles\NightTheme_elements\Shadow_for_image_of_weather.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Properties\Styles\NightTheme_elements\TextBlock_Style.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Properties\Styles\NightTheme_elements\TextBox_Style.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Settings_Page.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UC_Graf.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UC_Left_Menu.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UC_MainWindow_City.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UC_MRC.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UС_Min_info_Long_block.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Weather_Page.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Window2.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

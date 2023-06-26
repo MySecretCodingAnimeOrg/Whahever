@@ -1,0 +1,42 @@
+﻿<Page x:Class="WpfApp2.Settings_Page"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WpfApp2"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="965"
+      Title="Settings_Page">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+
+            <ColumnDefinition Width="0.5*"/>
+            <ColumnDefinition Width="0.04*"/>
+            <ColumnDefinition Width="0.5*"/>
+
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+
+            <RowDefinition Height="0.7*"/>
+            <RowDefinition Height="0.3*"/>
+            <RowDefinition Height="0.7*"/>
+            <RowDefinition Height="1.4*"/>
+            <RowDefinition Height="0.5*"/>
+            <RowDefinition Height="0.7*"/>
+            <RowDefinition Height="0.9*"/>
+
+            <RowDefinition Height="0.4*"/>
+        </Grid.RowDefinitions>
+        <TextBox HorizontalAlignment="Center"  Style="{DynamicResource TextBox_Style}" TextWrapping="Wrap" VerticalAlignment="Center" Width="965" Grid.Column="0" Grid.ColumnSpan="3" Grid.Row="1" Height="35"/>
+        <TextBox HorizontalAlignment="Left"  Style="{DynamicResource TextBox_Style}" materialDesign:HintAssist.Hint="Название города" TextWrapping="Wrap" VerticalAlignment="Center" Width="749" Grid.Column="0" Grid.ColumnSpan="3" Grid.Row="4" Height="40"/>
+        <Button x:Name="x" Content="Добавить город" Style="{DynamicResource but1}"  HorizontalAlignment="Left" Opacity="0.5"  VerticalAlignment="Center" Grid.Column="2" Grid.Row="4" Height="40" Width="216" Margin="248,0,0,0" />
+        <Label Content="Ваш основной город:" Foreground="#FFFFFF" HorizontalContentAlignment="Center" FontSize="28px" Grid.Row="0" Grid.Column="0" Style="{DynamicResource Label_Style_Blue_Middle}" Grid.ColumnSpan="3" />
+        <Label Content="Избранные города:" Foreground="#FFFFFF" HorizontalContentAlignment="Center" FontSize="28px" Grid.Row="2" Grid.Column="0" Style="{DynamicResource Label_Style_Blue_Middle}" Grid.ColumnSpan="3" />
+        <Label Content="Исчисление градусов:" Foreground="#FFFFFF" HorizontalContentAlignment="Center" FontSize="28px" Grid.Row="5" Grid.Column="0" Style="{DynamicResource Label_Style_Blue_Middle}" Grid.ColumnSpan="3" />
+        <RadioButton Grid.Column="2" Content="RadioButton" HorizontalAlignment="Left" Style="{DynamicResource Radio_button}" Margin="23,0,0,0" Grid.Row="6" VerticalAlignment="Top" Height="36" Width="140"/>
+        <RadioButton Grid.Column="0" Content="RadioButton" HorizontalAlignment="Left" Style="{DynamicResource Radio_button}" Margin="321,0,0,0" Grid.Row="6" VerticalAlignment="Top" Width="141" Height="36"/>
+
+    </Grid>
+</Page>

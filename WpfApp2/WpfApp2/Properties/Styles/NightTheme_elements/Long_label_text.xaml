@@ -1,0 +1,24 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Style x:Key="Long_label_text" TargetType="Label">
+        <Setter Property="Background" Value="Transparent"/>
+        <!-- цвет фона -->
+        <Setter Property="Foreground" Value="#FFFFFF" />
+
+
+        <!-- ширина -->
+        <Setter Property="FontSize" Value="24px"/>
+        <!-- высота -->
+        <!-- прозрачность на 50% -->
+
+        <Setter Property="HorizontalContentAlignment" Value="Center" />
+
+        <Setter Property="VerticalContentAlignment" Value="Center" />
+        <!-- выравнивание текста по центру -->
+        <Setter Property="Padding" Value="0"/>
+
+        <!-- отступы текста от границы блока -->
+        <Setter Property="FontFamily" Value="Jura"/>
+        <!-- шрифт Jura -->
+    </Style>
+</ResourceDictionary>
