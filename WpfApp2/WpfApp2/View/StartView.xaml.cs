@@ -26,10 +26,5 @@ namespace WpfApp2
             InitializeComponent();
             DataContext = new StartViewModel();
         }
-
-        private void Window_MouseDown(object sender, MouseButtonEventArgs e)
-        {
-
-        }
     }
 }

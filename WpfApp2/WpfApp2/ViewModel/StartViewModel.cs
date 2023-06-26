@@ -10,10 +10,17 @@ namespace WpfApp2.ViewModel
 {
     internal class StartViewModel : BindingHelper
     {
-        private void Window_MouseDown(object sender, MouseButtonEventArgs e)
+        public ICommand WindowMouseDownCommand { get; set; }
+
+        public StartViewModel()
         {
-            if (e.ChangedButton == MouseButton.Left)
-                (sender as MainWindow).DragMove();
+            WindowMouseDownCommand = new RelayCommand(WindowMouseDown);
+        }
+
+        private void WindowMouseDown()
+        {
+            var mainWindow = App.Current.MainWindow as MainWindow;
+            mainWindow?.DragMove();
         }
     }
 }
