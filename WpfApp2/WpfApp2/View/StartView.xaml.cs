@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using WpfApp2.ViewModel;
 
 namespace WpfApp2
 {
@@ -23,13 +24,12 @@ namespace WpfApp2
         public MainWindow()
         {
             InitializeComponent();
-            Application.Current.MainWindow = this;
-        }
-        private void Window_MouseDown(object sender, MouseButtonEventArgs e)
-        {
-            if (e.ChangedButton == MouseButton.Left)
-                (sender as MainWindow).DragMove();
+            DataContext = new StartViewModel();
         }
 
+        private void Window_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+
+        }
     }
 }

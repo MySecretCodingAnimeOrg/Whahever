@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using WpfApp2.ViewModel;
 
 namespace WpfApp2
 {
@@ -23,14 +24,8 @@ namespace WpfApp2
         public UC_MainWindow_City()
         {
             InitializeComponent();
+            DataContext = new UC_MainWindow_CityViewModel();
         }
 
-        private void Check_weather_Click(object sender, RoutedEventArgs e)
-        {
-            var cur = Application.Current.MainWindow;
-            Application.Current.MainWindow = new Window2();
-            Application.Current.MainWindow.Show();
-            cur.Close();
-        }
     }
 }
