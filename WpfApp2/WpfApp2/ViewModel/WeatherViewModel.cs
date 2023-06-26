@@ -8,5 +8,11 @@ namespace WpfApp2.ViewModel
 {
     internal class WeatherViewModel
     {
+        public CityViewModel CityViewModel { get; set; }
+
+        public WeatherViewModel()
+        {
+            CityViewModel = new CityViewModel();
+        }
     }
 }

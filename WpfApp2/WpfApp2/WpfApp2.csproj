@@ -47,7 +47,7 @@
   <ItemGroup>
     <Resource Include="Resources\Cloudy.png" />
     <Resource Include="Resources\Group 30 %281%29.png" />
-    <Resource Include="Resources\Group 30.png" />
+    <Resource Include="Resources\Group_30.png" />
     <Resource Include="Resources\Group 30.svg" />
     <Resource Include="Resources\Line.png" />
     <Resource Include="Resources\MorningEvening.png" />
