@@ -27,6 +27,7 @@
 
   <ItemGroup>
     <PackageReference Include="MaterialDesignThemes" Version="4.9.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
   </ItemGroup>
 
   <ItemGroup>
@@ -45,21 +46,21 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Resource Include="Cloudy.png" />
-    <Resource Include="Group 30 (1).png" />
-    <Resource Include="Group 30.png" />
-    <Resource Include="Group 30.svg" />
-    <Resource Include="Line.png" />
-    <Resource Include="MorningEvening.png" />
+    <Resource Include="Resources\Cloudy.png" />
+    <Resource Include="Resources\Group_30_%281%29.png" />
+    <Resource Include="Resources\Group_30.png" />
+    <Resource Include="Resources\Group_30.svg" />
+    <Resource Include="Resources\Line.png" />
+    <Resource Include="Resources\MorningEvening.png" />
     <Resource Include="Properties\Styles\DayTheme_elements\Day.png" />
     <Resource Include="Properties\Styles\DayTheme_elements\Group 30 (2).png" />
     <Resource Include="Properties\Styles\MorningTheme_elements\MorningEvening.png" />
     <Resource Include="Properties\Styles\NightTheme_elements\Night.png" />
-    <Resource Include="Rainy.png" />
-    <Resource Include="Rectangle 13.png" />
-    <Resource Include="Sunny.png" />
-    <Resource Include="Vector 45.png" />
-    <Resource Include="Vector 48.png" />
+    <Resource Include="Resources\Rainy.png" />
+    <Resource Include="Resources\Rectangle 13.png" />
+    <Resource Include="Resources\Sunny.png" />
+    <Resource Include="Resources\Vector 45.png" />
+    <Resource Include="Resources\Vector 48.png" />
   </ItemGroup>
 
   <ItemGroup>
