@@ -8,12 +8,12 @@ namespace WpfApp2.Model
 {
     internal class HourlyWeather
     {
-        public DateTime Time { get; set; }
+        public string Time { get; set; }
         public int Temperature { get; set; }
         public int Humidity { get; set; }
         public int FeelsLike { get; set; }
 
-        public HourlyWeather(DateTime time, int temperature, int humidity, int feelsLike)
+        public HourlyWeather(string time, int temperature, int humidity, int feelsLike)
         {
             Time = time;
             Temperature = temperature;

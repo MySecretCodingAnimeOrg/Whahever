@@ -37,19 +37,27 @@
                 <ItemsControl.ItemTemplate>
                     <DataTemplate>
                         <Grid>
-                            <Rectangle  Fill="#3D95B980" Width="110" Height="170" Margin="5"/>
+                            <!-- Rectangle с фоном -->
+                            <Rectangle Fill="#3D95B980" Width="110" Height="170" VerticalAlignment="Top"/>
+                            <!-- Иконка -->
+                            <Image Source="{Binding IconPath}" Width="50" Height="50" Margin="5,10,5,0" HorizontalAlignment="Center" VerticalAlignment="Top"/>
                             <Grid>
-                                <!-- Здесь добавьте остальные элементы -->
-                                <TextBlock Text="{Binding Time}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                                <TextBlock Text="{Binding Temperature}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                                <TextBlock Text="{Binding Humidity}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                                <TextBlock Text="{Binding FeelsLike}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                <Rectangle Fill="#3D95B980" Width="110" Height="50"/>
+                                <!-- Час -->
+                                <TextBlock Text="{Binding Time}" Margin="5,65,5,0" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+                                <!-- Градусы -->
+                                <TextBlock Text="{Binding Temperature}" Margin="0,90,0,0" HorizontalAlignment="Center" VerticalAlignment="Top"/>
                             </Grid>
+
+                            <!-- Влажность -->
+                            <TextBlock Text="{Binding Humidity}" Margin="15,0,0,15" HorizontalAlignment="Left" VerticalAlignment="Bottom"/>
+                            <!-- Ощущение -->
+                            <TextBlock Text="{Binding FeelsLike}" Margin="0,0,15,15" HorizontalAlignment="Right" VerticalAlignment="Bottom"/>
                         </Grid>
                     </DataTemplate>
                 </ItemsControl.ItemTemplate>
             </ItemsControl>
-        </WrapPanel>
+            </WrapPanel>
 
 
     </Grid>

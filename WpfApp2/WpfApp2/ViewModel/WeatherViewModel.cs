@@ -27,9 +27,12 @@ namespace WpfApp2.ViewModel
 
         public WeatherViewModel()
         {
+            DateTime now = DateTime.Now;
+            string formattedTime = now.ToString("HH:mm");
             HourlyWeatherList = new ObservableCollection<HourlyWeather>
             {
-                new HourlyWeather(DateTime.Now, 25, 70, 23)
+                new HourlyWeather(formattedTime, 25, 70, 23),
+                new HourlyWeather(formattedTime, 25, 70, 23)
             };
             CityViewModel = new CityViewModel();
             
