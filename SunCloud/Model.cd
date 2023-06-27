@@ -1,129 +1,102 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
-  <Class Name="ShortApiModel">
-    <Position X="4.75" Y="0.5" Width="2.75" />
-    <Compartments>
-      <Compartment Name="Nested Types" Collapsed="false" />
-    </Compartments>
-    <NestedTypes>
-      <Class Name="ShortApiModel.Weather">
-        <TypeIdentifier>
-          <NewMemberFileName>ShortApiModel.cs</NewMemberFileName>
-        </TypeIdentifier>
-      </Class>
-      <Class Name="ShortApiModel.HourlyWeather">
-        <TypeIdentifier>
-          <NewMemberFileName>ShortApiModel.cs</NewMemberFileName>
-        </TypeIdentifier>
-      </Class>
-      <Struct Name="ShortApiModel.City">
-        <TypeIdentifier>
-          <NewMemberFileName>ShortApiModel.cs</NewMemberFileName>
-        </TypeIdentifier>
-      </Struct>
-    </NestedTypes>
-    <TypeIdentifier>
-      <HashCode>AAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
-      <FileName>ShortApiModel.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="SunCloud.Model.YandexApiModel">
+  <Class Name="SunCloudApi.YandexApiModel">
     <Position X="11.75" Y="0.5" Width="4.5" />
     <Compartments>
       <Compartment Name="Nested Types" Collapsed="false" />
     </Compartments>
     <NestedTypes>
-      <Class Name="SunCloud.Model.YandexApiModel.Tzinfo">
+      <Class Name="SunCloudApi.YandexApiModel.Yesterday">
         <TypeIdentifier>
           <NewMemberFileName>ApiModels.cs</NewMemberFileName>
         </TypeIdentifier>
       </Class>
-      <Class Name="SunCloud.Model.YandexApiModel.Biomet">
+      <Class Name="SunCloudApi.YandexApiModel.Biomet">
         <TypeIdentifier>
           <NewMemberFileName>ApiModels.cs</NewMemberFileName>
         </TypeIdentifier>
       </Class>
-      <Class Name="SunCloud.Model.YandexApiModel.Hour">
+      <Class Name="SunCloudApi.YandexApiModel.Day">
         <TypeIdentifier>
           <NewMemberFileName>ApiModels.cs</NewMemberFileName>
         </TypeIdentifier>
       </Class>
-      <Class Name="SunCloud.Model.YandexApiModel.Day">
+      <Class Name="SunCloudApi.YandexApiModel.Evening">
         <TypeIdentifier>
           <NewMemberFileName>ApiModels.cs</NewMemberFileName>
         </TypeIdentifier>
       </Class>
-      <Class Name="SunCloud.Model.YandexApiModel.Parts">
+      <Class Name="SunCloudApi.YandexApiModel.Tzinfo">
         <TypeIdentifier>
           <NewMemberFileName>ApiModels.cs</NewMemberFileName>
         </TypeIdentifier>
       </Class>
-      <Class Name="SunCloud.Model.YandexApiModel.Fact">
+      <Class Name="SunCloudApi.YandexApiModel.Locality">
         <TypeIdentifier>
           <NewMemberFileName>ApiModels.cs</NewMemberFileName>
         </TypeIdentifier>
       </Class>
-      <Class Name="SunCloud.Model.YandexApiModel.Evening">
+      <Class Name="SunCloudApi.YandexApiModel.Night">
         <TypeIdentifier>
           <NewMemberFileName>ApiModels.cs</NewMemberFileName>
         </TypeIdentifier>
       </Class>
-      <Class Name="SunCloud.Model.YandexApiModel.Forecast">
+      <Class Name="SunCloudApi.YandexApiModel.Info">
         <TypeIdentifier>
           <NewMemberFileName>ApiModels.cs</NewMemberFileName>
         </TypeIdentifier>
       </Class>
-      <Class Name="SunCloud.Model.YandexApiModel.Info">
+      <Class Name="SunCloudApi.YandexApiModel.Hour">
         <TypeIdentifier>
           <NewMemberFileName>ApiModels.cs</NewMemberFileName>
         </TypeIdentifier>
       </Class>
-      <Class Name="SunCloud.Model.YandexApiModel.Province">
+      <Class Name="SunCloudApi.YandexApiModel.Province">
         <TypeIdentifier>
           <NewMemberFileName>ApiModels.cs</NewMemberFileName>
         </TypeIdentifier>
       </Class>
-      <Class Name="SunCloud.Model.YandexApiModel.Morning">
+      <Class Name="SunCloudApi.YandexApiModel.DayShort">
         <TypeIdentifier>
           <NewMemberFileName>ApiModels.cs</NewMemberFileName>
         </TypeIdentifier>
       </Class>
-      <Class Name="SunCloud.Model.YandexApiModel.Country">
+      <Class Name="SunCloudApi.YandexApiModel.GeoObject">
         <TypeIdentifier>
           <NewMemberFileName>ApiModels.cs</NewMemberFileName>
         </TypeIdentifier>
       </Class>
-      <Class Name="SunCloud.Model.YandexApiModel.Locality">
+      <Class Name="SunCloudApi.YandexApiModel.Fact">
         <TypeIdentifier>
           <NewMemberFileName>ApiModels.cs</NewMemberFileName>
         </TypeIdentifier>
       </Class>
-      <Class Name="SunCloud.Model.YandexApiModel.GeoObject">
+      <Class Name="SunCloudApi.YandexApiModel.Model">
         <TypeIdentifier>
           <NewMemberFileName>ApiModels.cs</NewMemberFileName>
         </TypeIdentifier>
       </Class>
-      <Class Name="SunCloud.Model.YandexApiModel.Yesterday">
+      <Class Name="SunCloudApi.YandexApiModel.Country">
         <TypeIdentifier>
           <NewMemberFileName>ApiModels.cs</NewMemberFileName>
         </TypeIdentifier>
       </Class>
-      <Class Name="SunCloud.Model.YandexApiModel.Model">
+      <Class Name="SunCloudApi.YandexApiModel.Forecast">
         <TypeIdentifier>
           <NewMemberFileName>ApiModels.cs</NewMemberFileName>
         </TypeIdentifier>
       </Class>
-      <Class Name="SunCloud.Model.YandexApiModel.NightShort">
+      <Class Name="SunCloudApi.YandexApiModel.Morning">
         <TypeIdentifier>
           <NewMemberFileName>ApiModels.cs</NewMemberFileName>
         </TypeIdentifier>
       </Class>
-      <Class Name="SunCloud.Model.YandexApiModel.DayShort">
+      <Class Name="SunCloudApi.YandexApiModel.Parts">
         <TypeIdentifier>
           <NewMemberFileName>ApiModels.cs</NewMemberFileName>
         </TypeIdentifier>
       </Class>
-      <Class Name="SunCloud.Model.YandexApiModel.Night">
+      <Class Name="SunCloudApi.YandexApiModel.NightShort">
         <TypeIdentifier>
           <NewMemberFileName>ApiModels.cs</NewMemberFileName>
         </TypeIdentifier>
@@ -134,23 +107,23 @@
       <FileName>ApiModels.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="SunCloud.Model.LocationApiModel">
+  <Class Name="SunCloudApi.LocationApiModel">
     <Position X="8" Y="0.5" Width="3.5" />
     <Compartments>
       <Compartment Name="Nested Types" Collapsed="false" />
     </Compartments>
     <NestedTypes>
-      <Class Name="SunCloud.Model.LocationApiModel.Data">
+      <Class Name="SunCloudApi.LocationApiModel.Data">
         <TypeIdentifier>
           <NewMemberFileName>ApiModels.cs</NewMemberFileName>
         </TypeIdentifier>
       </Class>
-      <Class Name="SunCloud.Model.LocationApiModel.Root">
+      <Class Name="SunCloudApi.LocationApiModel.Root">
         <TypeIdentifier>
           <NewMemberFileName>ApiModels.cs</NewMemberFileName>
         </TypeIdentifier>
       </Class>
-      <Class Name="SunCloud.Model.LocationApiModel.Suggestion">
+      <Class Name="SunCloudApi.LocationApiModel.Suggestion">
         <TypeIdentifier>
           <NewMemberFileName>ApiModels.cs</NewMemberFileName>
         </TypeIdentifier>

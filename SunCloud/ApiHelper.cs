@@ -9,9 +9,8 @@ using System.Threading;
 using System.Windows.Controls;
 using System.Windows.Documents;
 using Newtonsoft.Json;
-using SunCloud.Model;
 
-namespace SunCloud.ViewModel
+namespace SunCloudApi
 {
     public static class ApiHelper
     {
