@@ -7,7 +7,13 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="ViewModel\UC_SettingsCardViewModel.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="View\SettingsView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\UC_CardView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="View\UC_GrafView.xaml.cs">
@@ -22,6 +28,9 @@
     <Compile Update="View\UC_MRCView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="View\UC_SettingsCardView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="View\UС_Min_info_Long_blockView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -34,6 +43,9 @@
   </ItemGroup>
   <ItemGroup>
     <Page Update="Images.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ViewModel\UC_SettingsCardViewModel.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="View\StartView.xaml">
@@ -192,6 +204,9 @@
     <Page Update="View\SettingsView.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="View\UC_CardView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="View\UC_GrafView.xaml">
       <SubType>Designer</SubType>
     </Page>
@@ -202,6 +217,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="View\UC_MRCView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\UC_SettingsCardView.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="View\UС_Min_info_Long_blockView.xaml">

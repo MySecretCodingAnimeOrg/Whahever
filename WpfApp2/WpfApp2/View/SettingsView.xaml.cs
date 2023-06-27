@@ -12,6 +12,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using WpfApp2.ViewModel;
+using WpfApp2.ViewModel.Helpers;
 
 namespace WpfApp2
 {
@@ -23,6 +25,7 @@ namespace WpfApp2
         public Settings_Page()
         {
             InitializeComponent();
+            DataContext = new UC_SettingsCardViewModel();
         }
     }
 }

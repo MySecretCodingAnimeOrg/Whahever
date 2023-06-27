@@ -384,3 +384,9 @@ C:\Users\Даниил Селезнев\Documents\GitHub\Whahever\WpfApp2\WpfApp2
 C:\Users\Даниил Селезнев\Documents\GitHub\Whahever\WpfApp2\WpfApp2\obj\Debug\net6.0-windows\View\UC_MRCView.baml
 C:\Users\Даниил Селезнев\Documents\GitHub\Whahever\WpfApp2\WpfApp2\obj\Debug\net6.0-windows\View\UС_Min_info_Long_blockView.baml
 C:\Users\Даниил Селезнев\Documents\GitHub\Whahever\WpfApp2\WpfApp2\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+C:\Users\Даниил Селезнев\Documents\GitHub\Whahever\WpfApp2\WpfApp2\obj\Debug\net6.0-windows\View\UC_CardView.g.cs
+C:\Users\Даниил Селезнев\Documents\GitHub\Whahever\WpfApp2\WpfApp2\obj\Debug\net6.0-windows\View\UC_CardView.baml
+C:\Users\Даниил Селезнев\Documents\GitHub\Whahever\WpfApp2\WpfApp2\obj\Debug\net6.0-windows\View\UC_SettingsCardView.g.cs
+C:\Users\Даниил Селезнев\Documents\GitHub\Whahever\WpfApp2\WpfApp2\obj\Debug\net6.0-windows\View\UC_SettingsCardView.baml
+C:\Users\Даниил Селезнев\Documents\GitHub\Whahever\WpfApp2\WpfApp2\obj\Debug\net6.0-windows\ViewModel\UC_SettingsCardViewModel.g.cs
+C:\Users\Даниил Селезнев\Documents\GitHub\Whahever\WpfApp2\WpfApp2\obj\Debug\net6.0-windows\ViewModel\UC_SettingsCardViewModel.baml

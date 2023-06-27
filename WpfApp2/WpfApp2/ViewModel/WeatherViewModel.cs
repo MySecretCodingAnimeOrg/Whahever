@@ -18,37 +18,12 @@ namespace WpfApp2.ViewModel
 
         //var cords = ApiHelper.GetCoord(.Text);
 
-        private ObservableCollection<HourlyWeather> hourlyWeatherList;
-
-        public ObservableCollection<HourlyWeather> HourlyWeatherList
-        {
-            get { return hourlyWeatherList; }
-            set
-            {
-                hourlyWeatherList = value;
-                OnPropertyChanged(nameof(HourlyWeatherList));
-            }
-        }
+        
 
         public CityViewModel CityViewModel { get; set; }
 
         public WeatherViewModel()
-        {
-            DateTime now = DateTime.Now;
-            string formattedTime = now.ToString("HH:mm");
-            HourlyWeatherList = new ObservableCollection<HourlyWeather>
-            {
-                //new HourlyWeather(),
-                new HourlyWeather(formattedTime, 25, 70, 23),
-                new HourlyWeather(formattedTime, 25, 70, 23),
-                new HourlyWeather(formattedTime, 25, 70, 23),
-                new HourlyWeather(formattedTime, 25, 70, 23),
-                new HourlyWeather(formattedTime, 25, 70, 23),
-                new HourlyWeather(formattedTime, 25, 70, 23),
-                new HourlyWeather(formattedTime, 25, 70, 23),
-                new HourlyWeather(formattedTime, 25, 70, 23),
-                new HourlyWeather(formattedTime, 25, 70, 23),
-            };
+        { 
             CityViewModel = new CityViewModel();
             
         }
