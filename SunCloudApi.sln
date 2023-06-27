@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SunCloudApi", "SunCloudApi\SunCloudApi.csproj", "{2CE3C903-88A8-4EE5-AF8D-3A79B5C68672}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2CE3C903-88A8-4EE5-AF8D-3A79B5C68672}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CE3C903-88A8-4EE5-AF8D-3A79B5C68672}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CE3C903-88A8-4EE5-AF8D-3A79B5C68672}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CE3C903-88A8-4EE5-AF8D-3A79B5C68672}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {585AA186-0FA3-4F2C-9A5A-AD8EA678E6E6}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,10 @@
+D:\Whahever\SunCloudApi\bin\Debug\SunCloudApi.dll
+D:\Whahever\SunCloudApi\bin\Debug\SunCloudApi.pdb
+D:\Whahever\SunCloudApi\bin\Debug\Newtonsoft.Json.dll
+D:\Whahever\SunCloudApi\bin\Debug\Newtonsoft.Json.xml
+D:\Whahever\SunCloudApi\obj\Debug\SunCloudApi.csproj.AssemblyReference.cache
+D:\Whahever\SunCloudApi\obj\Debug\SunCloudApi.csproj.CoreCompileInputs.cache
+D:\Whahever\SunCloudApi\obj\Debug\SunCloudApi.csproj.CopyComplete
+D:\Whahever\SunCloudApi\obj\Debug\SunCloudApi.dll
+D:\Whahever\SunCloudApi\obj\Debug\SunCloudApi.pdb
+D:\Whahever\SunCloudApi\bin\Debug\SunCloudApi.dll.config
