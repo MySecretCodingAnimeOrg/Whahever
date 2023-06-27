@@ -445,7 +445,7 @@ namespace SunCloud.Model
             ///<summary>
             ///Температура воздуха
             ///</summary>
-            public double? temp;
+            public double temp;
 
             ///<summary>
             ///Ощущаемая температура
@@ -1291,6 +1291,7 @@ namespace SunCloud.Model
             /// Список прогнозов погоды
             /// </summary>
             public List<Forecast> forecasts;
+
         }
 
         /// <summary>

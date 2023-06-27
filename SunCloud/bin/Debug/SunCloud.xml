@@ -2006,6 +2006,16 @@
             Структура, содержащая координаты города
             </summary>
         </member>
+        <member name="F:ShortApiModel.City._GeoLat">
+            <summary>
+            Широта города
+            </summary>
+        </member>
+        <member name="F:ShortApiModel.City._GeoLon">
+            <summary>
+            Долгота города
+            </summary>
+        </member>
         <member name="F:ShortApiModel.City.GeoLat">
             <summary>
             Широта города

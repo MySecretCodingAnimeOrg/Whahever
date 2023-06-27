@@ -4,11 +4,37 @@ using System;
 
 public class ShortApiModel
 {
+
+    internal ShortApiModel()
+    { }
+
+    public ShortApiModel(string city, double temperature, double feelsLikeTemperature, double maxTemperature,
+        double minTemperature, double pressure, double humidity, double windSpeed, string windDirection, double geoLat,
+        double geoLon)
+    {
+        CityObj.Name = city;
+        CityObj.GeoLat = geoLat;
+        CityObj.GeoLon = geoLon;
+        WeatherObject.City = CityObj.Name;
+        WeatherObject.Temperature = temperature;
+        WeatherObject.FeelsLikeTemperature = feelsLikeTemperature;
+        WeatherObject.MaxTemperature = maxTemperature;
+        WeatherObject.MinTemperature = minTemperature;
+        WeatherObject.WindSpeed = windSpeed;
+        WeatherObject.WindDirection = windDirection;
+        WeatherObject.Pressure = pressure;
+        WeatherObject.Humidity = humidity;
+        WeatherObject.HourlyWeatherForecast = new List<HourlyWeather>();
+    }
+    public Weather WeatherObject = new Weather();
+    public City CityObj = new City();
+
     /// <summary>
     /// Класс, содержащий информацию о погоде в конкретном городе
     /// </summary>
     public class Weather
     {
+
         /// <summary>
         /// Город
         /// </summary>
@@ -65,6 +91,16 @@ public class ShortApiModel
     /// </summary>
     public class HourlyWeather
     {
+        public HourlyWeather(DateTime time, double pressure, string weather, double temperature, double feelsLikeTemperature, double humidity)
+        {
+            Time = time;
+            Pressure = pressure;
+            Weather = weather;
+            Temperature = temperature;
+            FeelsLikeTemperature = feelsLikeTemperature;
+            Humidity = humidity;
+        }
+
         /// <summary>
         /// Время прогноза
         /// </summary>
@@ -101,14 +137,24 @@ public class ShortApiModel
     /// </summary>
     public struct City
     {
+        internal string Name;
         /// <summary>
         /// Широта города
         /// </summary>
-        public string GeoLat;
+        public string _GeoLat;
 
         /// <summary>
         /// Долгота города
         /// </summary>
-        public string GeoLon;
+        public string _GeoLon;
+        /// <summary>
+        /// Широта города
+        /// </summary>
+        public double GeoLat;
+
+        /// <summary>
+        /// Долгота города
+        /// </summary>
+        public double GeoLon;
     }
 }
