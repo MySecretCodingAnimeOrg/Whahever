@@ -48,7 +48,8 @@
                           BlurRadius="4" RenderingBias="Quality"/>
             </Rectangle.Effect>
         </Rectangle>
-        <local1:UC_SettingsCardView Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="3"/>
+        <local1:UC_SettingsCardView Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="3"  />
+        <local1:UC_SettingsCardItemView Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="3"/>
 
     </Grid>
 </Page>

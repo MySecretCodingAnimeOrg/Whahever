@@ -390,3 +390,5 @@ C:\Users\Даниил Селезнев\Documents\GitHub\Whahever\WpfApp2\WpfApp2
 C:\Users\Даниил Селезнев\Documents\GitHub\Whahever\WpfApp2\WpfApp2\obj\Debug\net6.0-windows\View\UC_SettingsCardView.baml
 C:\Users\Даниил Селезнев\Documents\GitHub\Whahever\WpfApp2\WpfApp2\obj\Debug\net6.0-windows\ViewModel\UC_SettingsCardViewModel.g.cs
 C:\Users\Даниил Селезнев\Documents\GitHub\Whahever\WpfApp2\WpfApp2\obj\Debug\net6.0-windows\ViewModel\UC_SettingsCardViewModel.baml
+C:\Users\Даниил Селезнев\Documents\GitHub\Whahever\WpfApp2\WpfApp2\obj\Debug\net6.0-windows\View\UC_SettingsCardItemView.g.cs
+C:\Users\Даниил Селезнев\Documents\GitHub\Whahever\WpfApp2\WpfApp2\obj\Debug\net6.0-windows\View\UC_SettingsCardItemView.baml
