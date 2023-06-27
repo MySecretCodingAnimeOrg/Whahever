@@ -1332,7 +1332,7 @@ namespace SunCloudApi
     /// <summary>
     /// Полный тип данных Api по нахождению города
     /// </summary>
-    public class LocationApiModel
+    class LocationApiModel
     {
         /// <summary>
         /// Класс, содержащий данные об адресе, полученные из сервиса подсказок
