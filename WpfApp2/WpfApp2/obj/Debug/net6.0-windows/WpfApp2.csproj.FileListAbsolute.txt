@@ -383,3 +383,4 @@ C:\Users\Даниил Селезнев\Documents\GitHub\Whahever\WpfApp2\WpfApp2
 C:\Users\Даниил Селезнев\Documents\GitHub\Whahever\WpfApp2\WpfApp2\obj\Debug\net6.0-windows\View\UC_MainWindow_CityView.baml
 C:\Users\Даниил Селезнев\Documents\GitHub\Whahever\WpfApp2\WpfApp2\obj\Debug\net6.0-windows\View\UC_MRCView.baml
 C:\Users\Даниил Селезнев\Documents\GitHub\Whahever\WpfApp2\WpfApp2\obj\Debug\net6.0-windows\View\UС_Min_info_Long_blockView.baml
+C:\Users\Даниил Селезнев\Documents\GitHub\Whahever\WpfApp2\WpfApp2\bin\Debug\net6.0-windows\Newtonsoft.Json.dll

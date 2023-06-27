@@ -47,7 +47,7 @@
         <Label Content="7 м/с˚" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Style="{DynamicResource Long_label_text}" Grid.Column="8" Grid.Row="3" />
         <Label Content="Ветер˚:" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Style="{DynamicResource Long_label_text}" Grid.Column="9" Grid.Row="1" />
         <Label Content="270" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Style="{DynamicResource Long_label_text}" Grid.Column="9" Grid.Row="3" />
-        <Image Grid.Row="1" Grid.RowSpan="5" Grid.Column="2" Source="/Vector 48.png"/>
+        <Image Grid.Row="1" Grid.RowSpan="5" Grid.Column="2" Source="/Resources/Vector 48.png"/>
         <Rectangle Grid.Column="0" Grid.Row="0"  Grid.RowSpan="7" Fill="#3F000000">
             <Rectangle.Effect>
                 <DropShadowEffect Color="Black" Direction="32" ShadowDepth="2" Opacity="0.3" />

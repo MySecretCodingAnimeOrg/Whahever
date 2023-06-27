@@ -37,9 +37,10 @@
         <Label Content="Исчисление градусов:" Foreground="#FFFFFF" HorizontalContentAlignment="Center" FontSize="28px" Grid.Row="5" Grid.Column="0" Style="{DynamicResource Label_Style_Blue_Middle}" Grid.ColumnSpan="3" />
         <RadioButton Grid.Column="2" Content="RadioButton" HorizontalAlignment="Left" Style="{DynamicResource Radio_button}" Margin="23,0,0,0" Grid.Row="6" VerticalAlignment="Top" Height="36" Width="140"/>
         <RadioButton Grid.Column="0" Content="RadioButton" HorizontalAlignment="Left" Style="{DynamicResource Radio_button}" Margin="321,0,0,0" Grid.Row="6" VerticalAlignment="Top" Width="141" Height="36"/>
+        <Button x:Name="saveBtn" Content="Сохранить" Style="{DynamicResource but1}"  HorizontalAlignment="Left" Opacity="0.5"  VerticalAlignment="Top" Grid.Row="7" Height="40" Width="975" Grid.ColumnSpan="3" Margin="-10,0,0,0" />
 
         <Grid>
-           
+
         </Grid>
         <Rectangle Grid.ColumnSpan="3" Grid.Row="3" Height="auto">
             <Rectangle.Effect>
@@ -51,7 +52,7 @@
             </Rectangle.Fill>
         </Rectangle>
         <WrapPanel Grid.ColumnSpan="3" Grid.Row="3" Width="195" Height="88">
-            
+
             <Grid Width="195" Height="47">
                 <Border Width="20" Height="20" HorizontalAlignment="Right" VerticalAlignment="Top" Background="Transparent" BorderThickness="0" Cursor="Hand">
                     <Image Source="/Resources/Group_30.png" Stretch="UniformToFill"/>
@@ -73,7 +74,7 @@
                 <Rectangle Fill="#3D95B980"/>
                 <TextBlock Text="55°45′07″ с.ш. 37°36′56″ в.д" HorizontalAlignment="Center" VerticalAlignment="Center"/>
             </Grid>
-            
+
         </WrapPanel>
 
     </Grid>
