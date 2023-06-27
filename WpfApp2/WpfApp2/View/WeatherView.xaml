@@ -34,6 +34,16 @@
         <!--<Label Content="Label" HorizontalContentAlignment="Center" VerticalAlignment="Top" VerticalContentAlignment="Center" Style="{DynamicResource Label_Style_Blue_Middle}" Grid.Row="2" Margin="3,38,3,0"  />-->
         <WrapPanel Orientation="Horizontal" Grid.Row="1" Grid.ColumnSpan="3" Margin="0,5,0,21" Grid.RowSpan="3">
             <ItemsControl ItemsSource="{Binding HourlyWeatherList}">
+                <ItemsControl.ItemContainerStyle>
+                    <Style>
+                        <Setter Property="FrameworkElement.Margin" Value="5"/>
+                    </Style>
+                </ItemsControl.ItemContainerStyle>
+                <ItemsControl.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <WrapPanel Orientation="Horizontal"/>
+                    </ItemsPanelTemplate>
+                </ItemsControl.ItemsPanel>
                 <ItemsControl.ItemTemplate>
                     <DataTemplate>
                         <Grid>
@@ -50,14 +60,15 @@
                             </Grid>
 
                             <!-- Влажность -->
-                            <TextBlock Text="{Binding Humidity}" Margin="15,0,0,15" HorizontalAlignment="Left" VerticalAlignment="Bottom"/>
+                            <TextBlock Text="{Binding Humidity, StringFormat=Влаж.&#x0a;{0}}" Margin="10,0,0,10" HorizontalAlignment="Left" VerticalAlignment="Bottom" TextAlignment="Center"/>
                             <!-- Ощущение -->
-                            <TextBlock Text="{Binding FeelsLike}" Margin="0,0,15,15" HorizontalAlignment="Right" VerticalAlignment="Bottom"/>
+                            <TextBlock Text="{Binding FeelsLike, StringFormat=Ощущ.&#x0a;{0}}" Margin="0,0,10,10" HorizontalAlignment="Right" VerticalAlignment="Bottom" TextAlignment="Center"/>
                         </Grid>
                     </DataTemplate>
                 </ItemsControl.ItemTemplate>
             </ItemsControl>
-            </WrapPanel>
+        </WrapPanel>
+
 
 
     </Grid>
