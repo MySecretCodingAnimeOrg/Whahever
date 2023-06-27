@@ -32,42 +32,48 @@
         <!--<Button x:Name="ban" Content="Button" HorizontalAlignment="Left" Style="{DynamicResource Button_Cliked}"  VerticalAlignment="Top"  Grid.Column="2"  Grid.Row="2" Margin="186,74,0,0" />-->
         <!--<Label Content="Label" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Style="{DynamicResource Label_Style}" BorderThickness="0" Grid.Row="2" Grid.Column="2" Margin="27,64,10,78"/>-->
         <!--<Label Content="Label" HorizontalContentAlignment="Center" VerticalAlignment="Top" VerticalContentAlignment="Center" Style="{DynamicResource Label_Style_Blue_Middle}" Grid.Row="2" Margin="3,38,3,0"  />-->
-        <WrapPanel Orientation="Horizontal" Grid.Row="1" Grid.ColumnSpan="3" Margin="0,5,0,21" Grid.RowSpan="3">
-            <ItemsControl ItemsSource="{Binding HourlyWeatherList}">
-                <ItemsControl.ItemContainerStyle>
-                    <Style>
-                        <Setter Property="FrameworkElement.Margin" Value="5"/>
-                    </Style>
-                </ItemsControl.ItemContainerStyle>
-                <ItemsControl.ItemsPanel>
-                    <ItemsPanelTemplate>
-                        <WrapPanel Orientation="Horizontal"/>
-                    </ItemsPanelTemplate>
-                </ItemsControl.ItemsPanel>
-                <ItemsControl.ItemTemplate>
-                    <DataTemplate>
-                        <Grid>
-                            <!-- Rectangle с фоном -->
-                            <Rectangle Fill="#3D95B980" Width="110" Height="170" VerticalAlignment="Top"/>
-                            <!-- Иконка -->
-                            <Image Source="{Binding IconPath}" Width="50" Height="50" Margin="5,10,5,0" HorizontalAlignment="Center" VerticalAlignment="Top"/>
-                            <Grid>
-                                <Rectangle Fill="#3D95B980" Width="110" Height="50"/>
-                                <!-- Час -->
-                                <TextBlock Text="{Binding Time}" Margin="5,65,5,0" HorizontalAlignment="Center" VerticalAlignment="Top"/>
-                                <!-- Градусы -->
-                                <TextBlock Text="{Binding Temperature}" Margin="0,90,0,0" HorizontalAlignment="Center" VerticalAlignment="Top"/>
-                            </Grid>
+        <Grid Grid.Row="1" Grid.ColumnSpan="3" Margin="0,5,0,21" Grid.RowSpan="3">
+            <ScrollViewer HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Hidden">
+                <StackPanel Orientation="Horizontal">
+                    <ItemsControl ItemsSource="{Binding HourlyWeatherList}">
+                        <ItemsControl.ItemContainerStyle>
+                            <Style>
+                                <Setter Property="FrameworkElement.Margin" Value="5"/>
+                            </Style>
+                        </ItemsControl.ItemContainerStyle>
+                        <ItemsControl.ItemsPanel>
+                            <ItemsPanelTemplate>
+                                <WrapPanel Orientation="Horizontal"/>
+                            </ItemsPanelTemplate>
+                        </ItemsControl.ItemsPanel>
+                        <ItemsControl.ItemTemplate>
+                            <DataTemplate>
+                                <Grid>
+                                    <!-- Rectangle с фоном -->
+                                    <Rectangle Fill="#3D95B980" Width="110" Height="170" VerticalAlignment="Top"/>
+                                    <!-- Иконка -->
+                                    <Image Source="{Binding IconPath}" Width="50" Height="50" Margin="5,10,5,0" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+                                    <Grid>
+                                        <Rectangle Fill="#3D95B980" Width="110" Height="50"/>
+                                        <!-- Час -->
+                                        <TextBlock Text="{Binding Time}" Margin="5,65,5,0" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+                                        <!-- Градусы -->
+                                        <TextBlock Text="{Binding Temperature}" Margin="0,90,0,0" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+                                    </Grid>
 
-                            <!-- Влажность -->
-                            <TextBlock Text="{Binding Humidity, StringFormat=Влаж.&#x0a;{0}}" Margin="10,0,0,10" HorizontalAlignment="Left" VerticalAlignment="Bottom" TextAlignment="Center"/>
-                            <!-- Ощущение -->
-                            <TextBlock Text="{Binding FeelsLike, StringFormat=Ощущ.&#x0a;{0}}" Margin="0,0,10,10" HorizontalAlignment="Right" VerticalAlignment="Bottom" TextAlignment="Center"/>
-                        </Grid>
-                    </DataTemplate>
-                </ItemsControl.ItemTemplate>
-            </ItemsControl>
-        </WrapPanel>
+                                    <!-- Влажность -->
+                                    <TextBlock Text="{Binding Humidity, StringFormat=Влаж.&#x0a;{0}}" Margin="10,0,0,10" HorizontalAlignment="Left" VerticalAlignment="Bottom" TextAlignment="Center"/>
+                                    <!-- Ощущение -->
+                                    <TextBlock Text="{Binding FeelsLike, StringFormat=Ощущ.&#x0a;{0}}" Margin="0,0,10,10" HorizontalAlignment="Right" VerticalAlignment="Bottom" TextAlignment="Center"/>
+                                </Grid>
+                            </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+                    </ItemsControl>
+                </StackPanel>
+            </ScrollViewer>
+        </Grid>
+
+
 
 
 

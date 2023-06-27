@@ -32,7 +32,15 @@ namespace WpfApp2.ViewModel
             HourlyWeatherList = new ObservableCollection<HourlyWeather>
             {
                 new HourlyWeather(formattedTime, 25, 70, 23),
-                new HourlyWeather(formattedTime, 25, 70, 23)
+                new HourlyWeather(formattedTime, 25, 70, 23),
+                new HourlyWeather(formattedTime, 25, 70, 23),
+                new HourlyWeather(formattedTime, 25, 70, 23),
+                new HourlyWeather(formattedTime, 25, 70, 23),
+                new HourlyWeather(formattedTime, 25, 70, 23),
+                new HourlyWeather(formattedTime, 25, 70, 23),
+                new HourlyWeather(formattedTime, 25, 70, 23),
+                new HourlyWeather(formattedTime, 25, 70, 23),
+                new HourlyWeather(formattedTime, 25, 70, 23),
             };
             CityViewModel = new CityViewModel();
             
