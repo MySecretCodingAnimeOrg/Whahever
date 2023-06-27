@@ -1,0 +1,81 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Cloudy.png" />
+    <None Remove="Group 30 %281%29.png" />
+    <None Remove="Group 30.png" />
+    <None Remove="Group 30.svg" />
+    <None Remove="Line.png" />
+    <None Remove="MorningEvening.png" />
+    <None Remove="Properties\Styles\DayTheme_elements\Day.png" />
+    <None Remove="Properties\Styles\DayTheme_elements\Group 30 %282%29.png" />
+    <None Remove="Properties\Styles\MorningTheme_elements\MorningEvening.png" />
+    <None Remove="Properties\Styles\NightTheme_elements\Night.png" />
+    <None Remove="Rainy.png" />
+    <None Remove="Rectangle 13.png" />
+    <None Remove="Sunny.png" />
+    <None Remove="Vector 45.png" />
+    <None Remove="Vector 48.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MaterialDesignThemes" Version="4.9.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Settings.Designer.cs">
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Properties\Settings.settings">
+      <Generator>PublicSettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\Cloudy.png" />
+    <Resource Include="Resources\Group_30_%281%29.png" />
+    <Resource Include="Resources\Group_30.png" />
+    <Resource Include="Resources\Group_30.svg" />
+    <Resource Include="Resources\Line.png" />
+    <Resource Include="Resources\MorningEvening.png" />
+    <Resource Include="Properties\Styles\DayTheme_elements\Day.png" />
+    <Resource Include="Properties\Styles\DayTheme_elements\Group 30 (2).png" />
+    <Resource Include="Properties\Styles\MorningTheme_elements\MorningEvening.png" />
+    <Resource Include="Properties\Styles\NightTheme_elements\Night.png" />
+    <Resource Include="Resources\Rainy.png" />
+    <Resource Include="Resources\Rectangle 13.png" />
+    <Resource Include="Resources\Sunny.png" />
+    <Resource Include="Resources\Vector 45.png" />
+    <Resource Include="Resources\Vector 48.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Update="Properties\Styles\DayTheme_elements\radio_button.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Properties\Styles\MorningTheme_elements\Label_Style_Blue_Middle.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Properties\Styles\MorningTheme_elements\TextBox_Style.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Properties\Styles\NightTheme_elements\TextBox_Style.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+
+</Project>

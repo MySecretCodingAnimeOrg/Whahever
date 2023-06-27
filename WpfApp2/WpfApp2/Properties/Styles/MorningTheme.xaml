@@ -1,0 +1,26 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="MorningTheme_elements/Button_Style.xaml"/>
+        <ResourceDictionary Source="MorningTheme_elements/Label_Style.xaml"/>
+        <ResourceDictionary Source="MorningTheme_elements/TextBox_Style.xaml"/>
+        <ResourceDictionary Source="MorningTheme_elements/Button_Cliked_Style.xaml"/>
+        <ResourceDictionary Source="MorningTheme_elements/BackGround.xaml"/>
+        <ResourceDictionary Source="MorningTheme_elements/elem_Style.xaml"/>
+        <ResourceDictionary Source="MorningTheme_elements/Min_window_Button.xaml"/>
+        <ResourceDictionary Source="MorningTheme_elements/Button_underLine_Big.xaml"/>
+        <ResourceDictionary Source="MorningTheme_elements/Label_Style_Blue_Big.xaml"/>
+        <ResourceDictionary Source="MorningTheme_elements/Block_Style.xaml"/>
+        <ResourceDictionary Source="MorningTheme_elements/Label_Style_Blue_Middle.xaml"/>
+        <ResourceDictionary Source="MorningTheme_elements/Label_Style_Time_and_Text_Left_Menu.xaml"/>
+        <ResourceDictionary Source="MorningTheme_elements/Big_number_label.xaml"/>
+        <ResourceDictionary Source="MorningTheme_elements/Long_label_text.xaml"/>
+        <ResourceDictionary Source="MorningTheme_elements/Shadow_for_image_of_weather.xaml"/>
+        <ResourceDictionary Source="MorningTheme_elements/Radio_button.xaml"/>
+        
+    </ResourceDictionary.MergedDictionaries>
+    
+    
+
+
+</ResourceDictionary>

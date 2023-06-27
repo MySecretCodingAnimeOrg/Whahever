@@ -1,0 +1,22 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="DayTheme_elements/Button_Style.xaml"/>
+        <ResourceDictionary Source="DayTheme_elements/Label_Style.xaml"/>
+        <ResourceDictionary Source="DayTheme_elements/TextBox_Style.xaml"/>
+        <ResourceDictionary Source="DayTheme_elements/Button_Cliked_Style.xaml"/>
+        <ResourceDictionary Source="DayTheme_elements/BackGround.xaml"/>
+        <ResourceDictionary Source="DayTheme_elements/elem_Style.xaml"/>
+        <ResourceDictionary Source="DayTheme_elements/Label_Style_Blue_Big.xaml"/>
+        <ResourceDictionary Source="DayTheme_elements/Label_Style_Blue_Middle.xaml"/>
+        <ResourceDictionary Source="DayTheme_elements/Button_underLine_Big.xaml"/>
+        <ResourceDictionary Source="DayTheme_elements/Min_window_Button.xaml"/>
+        <ResourceDictionary Source="DayTheme_elements/Block_Style.xaml"/>
+        <ResourceDictionary Source="DayTheme_elements/Label_Style_Blue_Middle.xaml"/>
+        <ResourceDictionary Source="DayTheme_elements/Label_Style_Time_and_Text_Left_Menu.xaml"/>
+        <ResourceDictionary Source="DayTheme_elements/Big_number_label.xaml"/>
+        <ResourceDictionary Source="DayTheme_elements/Long_label_text.xaml"/>
+        <ResourceDictionary Source="DayTheme_elements/Shadow_for_image_of_weather.xaml"/>
+        <ResourceDictionary Source="DayTheme_elements/Radio_button.xaml"/>
+    </ResourceDictionary.MergedDictionaries>
+</ResourceDictionary>

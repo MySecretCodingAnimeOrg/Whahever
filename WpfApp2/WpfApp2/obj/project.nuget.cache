@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "zfEgl7i8brPtaxQaDr9SAz45cBYS0U87UclRGM0reWVBJstEny3YluGR/isgPKpIRsbVf2+N9IRb0C9Q98UJwg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Даниил Селезнев\\Documents\\GitHub\\Whahever\\WpfApp2\\WpfApp2\\WpfApp2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Даниил Селезнев\\.nuget\\packages\\materialdesigncolors\\2.1.4\\materialdesigncolors.2.1.4.nupkg.sha512",
+    "C:\\Users\\Даниил Селезнев\\.nuget\\packages\\materialdesignthemes\\4.9.0\\materialdesignthemes.4.9.0.nupkg.sha512",
+    "C:\\Users\\Даниил Селезнев\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.39\\microsoft.xaml.behaviors.wpf.1.1.39.nupkg.sha512",
+    "C:\\Users\\Даниил Селезнев\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
