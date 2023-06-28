@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SunCloudApi;
+using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.IO;
@@ -6,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
+using System.Windows.Input;
 using WpfApp2.Model;
 using WpfApp2.ViewModel.Helpers;
 
@@ -13,12 +15,28 @@ namespace WpfApp2.ViewModel
 {
     public class UC_SettingsCardViewModel : BindingHelper
     {
+        public ShortApiModel shortApiModel { get; set; }
         private ObservableCollection<City> cities;
         private City selectedCity;
+
+        public Action <City> AddCityCommand { get; set; }
+
+        private string newCityName;
+
+        public string NewCityName
+        {
+            get { return newCityName; }
+            set
+            {
+                newCityName = value;
+                OnPropertyChanged(nameof(NewCityName));
+            }
+        }
 
         public UC_SettingsCardViewModel()
         {
             Cities = LoadCities();
+            AddCityCommand = new Action<City>(AddCity);
         }
 
         public ObservableCollection<City> Cities
@@ -43,6 +61,8 @@ namespace WpfApp2.ViewModel
 
         public void AddCity(City city)
         {
+            ApiHelper.JsonRender(city.ToString());
+            shortApiModel = ApiHelper.ShortObject();
             Cities.Add(city);
             SaveCities();
         }
@@ -75,7 +95,7 @@ namespace WpfApp2.ViewModel
         {
             try
             {
-                string filePath = "C:\\Users\\Даниил Селезнев\\Documents\\GitHub\\Whahever\\WpfApp2\\WpfApp2\\cities.json";
+                string filePath = "cities.json";
 
                 if (File.Exists(filePath))
                 {

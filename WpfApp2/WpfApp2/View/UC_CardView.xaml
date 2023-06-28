@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
-             xmlns:local="clr-namespace:WpfApp2.View"
+             xmlns:local="clr-namespace:WpfApp2.View" xmlns:viewmodel="clr-namespace:WpfApp2.ViewModel" d:DataContext="{d:DesignInstance Type=viewmodel:UC_CardViewModel}"
              Style="{DynamicResource Fone}"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
@@ -55,7 +55,7 @@
                                     <!-- Rectangle с фоном -->
                                     <Rectangle Fill="#87B6CA" Opacity="0.5" VerticalAlignment="Center" Grid.ColumnSpan="3" Height="79" />
                                     <!-- Иконка -->
-                                    <Image Source="{Binding IconPath}" Grid.Column="1" Grid.Row="0" Width="60" Height="60"/>
+                                    <Image Source="{Binding Pathname}" Grid.Column="1" Grid.Row="0" Width="auto" Height="auto"/>
 
                                     <Rectangle Fill="#3D95B9" Opacity="0.5" Grid.RowSpan="2" Grid.Row="1"  Grid.Column="1"/>
 

@@ -30,16 +30,14 @@ namespace WpfApp2.ViewModel
         //    }
         //}
 
-        public UC_SettingsCardViewModel uC_SettingsCardViewModel;
+        //public UC_SettingsCardViewModel uC_SettingsCardViewModel;
+        //public UC_MainWindow_CityViewModel cityViewModel;
 
         public SettingsViewModel()
         {
-            uC_SettingsCardViewModel = new UC_SettingsCardViewModel();
-            
-            //cityViewModel = new CityViewModel();
-            //cityViewModel.CityName = UC_MainWindow_CityViewModel.;
         }
 
-        
+
+
     }
 }

@@ -11,12 +11,12 @@ namespace WpfApp2.Model
     {
         public string Name { get; set; }
         public string CountryCode { get; set; }
-        public double Latitude { get; set; }
-        public double Longitude { get; set; }
+        public int Latitude { get; set; }
+        public int Longitude { get; set; }
 
         public City() {}
 
-        public City(string name, string countryCode, double latitude, double longitude)
+        public City(string name, string countryCode, int latitude, int longitude)
         {
             Name = name;
             CountryCode = countryCode;

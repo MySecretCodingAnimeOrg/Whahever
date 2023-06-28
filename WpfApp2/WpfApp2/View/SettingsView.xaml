@@ -9,10 +9,10 @@
       d:DesignHeight="450" d:DesignWidth="965"
       Title="Settings_Page">
     <Page.Resources>
-        <local2:UC_MainWindow_CityViewModel x:Key="UC_MainWindow_CityViewModel" />
+        <local2:UC_SettingsCardViewModel x:Key="UC_SettingsCardViewModel" />
     </Page.Resources>
 
-    <Grid DataContext="{StaticResource UC_MainWindow_CityViewModel}">
+    <Grid DataContext="{StaticResource UC_SettingsCardViewModel}">
         <Grid.ColumnDefinitions>
 
             <ColumnDefinition Width="0.5*"/>
@@ -33,8 +33,8 @@
             <RowDefinition Height="0.4*"/>
         </Grid.RowDefinitions>
         <TextBox Text="{Binding CityName}" HorizontalAlignment="Center" Style="{DynamicResource TextBox_Style}" TextWrapping="Wrap" VerticalAlignment="Center" Width="965" Grid.Column="0" Grid.ColumnSpan="3" Grid.Row="1" Height="35"/>
-        <TextBox HorizontalAlignment="Left"  Style="{DynamicResource TextBox_Style}" materialDesign:HintAssist.Hint="Название города" TextWrapping="Wrap" VerticalAlignment="Center" Width="749" Grid.Column="0" Grid.ColumnSpan="3" Grid.Row="4" Height="40"/>
-        <Button x:Name="x" Content="Добавить город" Style="{DynamicResource but1}"  HorizontalAlignment="Left" Opacity="0.5"  VerticalAlignment="Center" Grid.Column="2" Grid.Row="4" Height="40" Width="216" Margin="248,0,0,0" />
+        <TextBox HorizontalAlignment="Left" Text="{Binding NewCityName}" Style="{DynamicResource TextBox_Style}" materialDesign:HintAssist.Hint="Название города" TextWrapping="Wrap" VerticalAlignment="Center" Width="749" Grid.Column="0" Grid.ColumnSpan="3" Grid.Row="4" Height="40"/>
+        <Button x:Name="x" Content="Добавить город" Command="{Binding AddCityCommand}" Style="{DynamicResource but1}"  HorizontalAlignment="Left" Opacity="0.5"  VerticalAlignment="Center" Grid.Column="2" Grid.Row="4" Height="40" Width="216" Margin="255,0,0,0" />
         <Label Content="Ваш основной город:" Foreground="#FFFFFF" HorizontalContentAlignment="Center" FontSize="28px" Grid.Row="0" Grid.Column="0" Style="{DynamicResource Label_Style_Blue_Middle}" Grid.ColumnSpan="3" />
         <Label Content="Избранные города:" Foreground="#FFFFFF" HorizontalContentAlignment="Center" FontSize="28px" Grid.Row="2" Grid.Column="0" Style="{DynamicResource Label_Style_Blue_Middle}" Grid.ColumnSpan="3" />
         <Label Content="Исчисление градусов:" Foreground="#FFFFFF" HorizontalContentAlignment="Center" FontSize="28px" Grid.Row="5" Grid.Column="0" Style="{DynamicResource Label_Style_Blue_Middle}" Grid.ColumnSpan="3" />

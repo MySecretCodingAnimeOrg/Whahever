@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SunCloudApi;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,7 +13,11 @@ namespace WpfApp2.ViewModel
 {
     internal class UC_MainWindow_CityViewModel : BindingHelper
     {
+        public ShortApiModel shortApiModel { get; set; }
+
         public ICommand CheckWeatherCommand { get; set; }
+
+        public event EventHandler<string> WeatherChecked;
 
         private string cityName;
 
@@ -33,13 +38,15 @@ namespace WpfApp2.ViewModel
         {
             CheckWeatherCommand = new RelayCommand(CheckWeather);
 
-        }
+        }   
 
         private void CheckWeather()
         {
+            UC_CardViewModel uC_CardViewModel = new UC_CardViewModel(this);
             var cur = Application.Current.MainWindow;
             Application.Current.MainWindow = new Window2();
-            //Application.Current.MainWindow.DataContext = new SettingsViewModel();
+            //Application.Current.MainWindow.DataContext = new UC_CardViewModel
+            
             Application.Current.MainWindow.Show();
             cur.Close();
         }

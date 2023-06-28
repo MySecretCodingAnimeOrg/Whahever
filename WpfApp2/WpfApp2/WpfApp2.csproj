@@ -20,9 +20,14 @@
     <None Remove="Properties\Styles\NightTheme_elements\Night.png" />
     <None Remove="Rainy.png" />
     <None Remove="Rectangle 13.png" />
+    <None Remove="Resources\cities.json" />
     <None Remove="Sunny.png" />
     <None Remove="Vector 45.png" />
     <None Remove="Vector 48.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="cities.json" />
   </ItemGroup>
 
   <ItemGroup>
