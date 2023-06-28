@@ -11,8 +11,8 @@ namespace WpfApp2.Model
     {
         public string Name { get; set; }
         public string CountryCode { get; set; }
-        public int Latitude { get; set; }
-        public int Longitude { get; set; }
+        public double Latitude { get; set; }
+        public double Longitude { get; set; }
 
         public City() {}
 

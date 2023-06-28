@@ -8,5 +8,9 @@ namespace WpfApp2.ViewModel
 {
     internal class UC_GrafViewModel
     {
+        public void LoadFromJson()
+        {
+
+        }
     }
 }

@@ -132,7 +132,7 @@ namespace WpfApp2.ViewModel
 
         private string GetIconPathByWeatherDescription(string weatherDescription)
         {
-            string basePath = "pack://application:,,,/Resources/";
+            string basePath = "../../../Resources/";
             string fileExtension = ".png";
 
             switch (weatherDescription)

@@ -95,7 +95,7 @@ namespace WpfApp2.ViewModel
         {
             try
             {
-                string filePath = "cities.json";
+                string filePath = "../../../cities.json";
 
                 if (File.Exists(filePath))
                 {
@@ -115,7 +115,7 @@ namespace WpfApp2.ViewModel
         {
             try
             {
-                string filePath = "cities.json";
+                string filePath = "../../../cities.json";
                 string json = JsonSerializer.Serialize(Cities);
                 File.WriteAllText(filePath, json);
             }

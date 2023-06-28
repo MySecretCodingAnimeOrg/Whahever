@@ -391,4 +391,3 @@ C:\Users\Даниил Селезнев\Documents\GitHub\Whahever\WpfApp2\WpfApp2
 C:\Users\Даниил Селезнев\Documents\GitHub\Whahever\WpfApp2\WpfApp2\bin\Debug\net6.0-windows\SunCloudApi.dll
 C:\Users\Даниил Селезнев\Documents\GitHub\Whahever\WpfApp2\WpfApp2\bin\Debug\net6.0-windows\SunCloudApi.pdb
 C:\Users\Даниил Селезнев\Documents\GitHub\Whahever\WpfApp2\WpfApp2\bin\Debug\net6.0-windows\SunCloudApi.dll.config
-C:\Users\Даниил Селезнев\Documents\GitHub\Whahever\WpfApp2\WpfApp2\obj\Debug\net6.0-windows\WpfApp2_Content.g.cs
