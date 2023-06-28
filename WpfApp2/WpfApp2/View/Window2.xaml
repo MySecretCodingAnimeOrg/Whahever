@@ -35,7 +35,7 @@
         <local:UC_MRC Grid.Column="4" Grid.ColumnSpan="2" Height="NaN" Width="NaN" VerticalAlignment="Center" Padding="0,0,1,0" Margin="391,0,0,0"/>
         
         <Button x:Name="ban1" Content="Погода" HorizontalAlignment="Center" Style="{DynamicResource Button_underLine_Big}"  VerticalContentAlignment="Center" HorizontalContentAlignment="Left" Click="Button_Click_1" Grid.Column="2" Grid.Row="1" Height="68" Width="464"/>
-        <Button x:Name="Settings_Button" Content="Settings" HorizontalAlignment="Center" Style="{DynamicResource Button_underLine_Big}"  VerticalContentAlignment="Center" HorizontalContentAlignment="Right" Click="Settings_Page" Grid.Column="4" Grid.Row="1" Height="68" Width="464"/>
+        <Button x:Name="Settings_Button" Content="Настройки" HorizontalAlignment="Center" Style="{DynamicResource Button_underLine_Big}"  VerticalContentAlignment="Center" HorizontalContentAlignment="Right" Click="Settings_Page" Grid.Column="4" Grid.Row="1" Height="68" Width="464"/>
         <Frame x:Name="PageFrame" Grid.Row="3" Grid.Column="2" Grid.ColumnSpan="3" Grid.RowSpan="5" NavigationUIVisibility="Hidden" />
     </Grid>
 

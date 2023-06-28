@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SunCloudApi;
+using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
@@ -11,6 +12,7 @@ namespace WpfApp2.ViewModel
 {
     internal class UC_CardViewModel : BindingHelper
     {
+        public ShortApiModel shortApiModel { get; set; }
         private ObservableCollection<HourlyWeather> hourlyWeatherList;
 
         public ObservableCollection<HourlyWeather> HourlyWeatherList
@@ -25,21 +27,21 @@ namespace WpfApp2.ViewModel
 
         public UC_CardViewModel()
         {
+            ApiHelper.JsonRender("Moscow");
+            //ApiHelper.ShortObject();
+            shortApiModel = ApiHelper.ShortObject();
             DateTime now = DateTime.Now;
-            string formattedTime = now.ToString("HH:mm");
-            HourlyWeatherList = new ObservableCollection<HourlyWeather>
+            //string formattedTime = now.ToString("HH:mm");
+            int hour = 0;
+            HourlyWeatherList = new ObservableCollection<HourlyWeather>();
+            foreach (var item in shortApiModel.WeatherObject.HourlyWeatherForecast)
             {
-                //new HourlyWeather(),
-                new HourlyWeather(formattedTime, 25, 70, 23, ""),
-                new HourlyWeather(formattedTime, 25, 70, 23, ""),
-                new HourlyWeather(formattedTime, 25, 70, 23, ""),
-                new HourlyWeather(formattedTime, 25, 70, 23, ""),
-                new HourlyWeather(formattedTime, 25, 70, 23, ""),
-                new HourlyWeather(formattedTime, 25, 70, 23, ""),
-                new HourlyWeather(formattedTime, 25, 70, 23, ""),
-                new HourlyWeather(formattedTime, 25, 70, 23, ""),
-                new HourlyWeather(formattedTime, 25, 70, 23, ""),
-            };
+                string formattedTime = new DateTime(now.Year, now.Month, now.Day, hour, 0, 0).ToString("HH:mm");
+                hourlyWeatherList.Add(new HourlyWeather(formattedTime, (int)item.Temperature, (int)item.Humidity, (int)item.FeelsLikeTemperature, ""));
+                hour++;
+                if (hour == 24)
+                    break;
+            }
         }
     }
 }

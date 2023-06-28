@@ -74,7 +74,7 @@
                                     <!-- Градусы -->
                                     <Label Content="{Binding Humidity }" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="16px" Grid.Row="4" Style="{DynamicResource Label_Style_Time_and_Text_Left_Menu}" Grid.Column="1" Margin="0,0,55,0"/>
 
-                                    <Label Content="{Binding FeelsLike }" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="16px"  Grid.Row="5" Style="{DynamicResource Label_Style_Time_and_Text_Left_Menu}" Grid.Column="1" Margin="55,0,0,0"/>
+                                    <Label Content="{Binding FeelsLike }" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="16px"  Grid.Row="4" Style="{DynamicResource Label_Style_Time_and_Text_Left_Menu}" Grid.Column="1" Margin="55,0,0,0"/>
                                     <Rectangle Grid.Column="0" Grid.Row="0" Grid.RowSpan="6" Fill="#3F000000">
                                         <Rectangle.Effect>
                                             <DropShadowEffect Color="Black" Direction="32" ShadowDepth="2" Opacity="0.3" />

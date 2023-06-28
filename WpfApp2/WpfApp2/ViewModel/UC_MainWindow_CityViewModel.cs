@@ -14,15 +14,32 @@ namespace WpfApp2.ViewModel
     {
         public ICommand CheckWeatherCommand { get; set; }
 
+        private string cityName;
+
+        public string CityName
+        {
+            get { return cityName; }
+            set
+            {
+                if (cityName != value)
+                {
+                    cityName = value;
+                    OnPropertyChanged(nameof(CityName));
+                }
+            }
+        }
+
         public UC_MainWindow_CityViewModel()
         {
             CheckWeatherCommand = new RelayCommand(CheckWeather);
+
         }
 
         private void CheckWeather()
         {
             var cur = Application.Current.MainWindow;
             Application.Current.MainWindow = new Window2();
+            //Application.Current.MainWindow.DataContext = new SettingsViewModel();
             Application.Current.MainWindow.Show();
             cur.Close();
         }
