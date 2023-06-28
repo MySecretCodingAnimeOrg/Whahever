@@ -5,6 +5,7 @@ using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows;
 using WpfApp2.Model;
 using WpfApp2.ViewModel.Helpers;
 
@@ -145,7 +146,7 @@ namespace WpfApp2.ViewModel
                 case "overcast":
                     return basePath + "overcast" + fileExtension;
                 case "light-rain":
-                    return basePath + "light_rain" + fileExtension;
+                    return basePath + "light-rain" + fileExtension;
                 case "rain":
                     return basePath + "rain" + fileExtension;
                 default:
