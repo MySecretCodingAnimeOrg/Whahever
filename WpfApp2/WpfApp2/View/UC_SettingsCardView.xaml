@@ -3,22 +3,81 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
-             xmlns:local="clr-namespace:WpfApp2.View"
+             xmlns:local="clr-namespace:WpfApp2.View" xmlns:viewmodel="clr-namespace:WpfApp2.ViewModel" d:DataContext="{d:DesignInstance Type=viewmodel:UC_SettingsCardViewModel}"
              Style="{DynamicResource Fone}"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
     <Grid>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="0.01*"/>
+            <ColumnDefinition Width="0.001*"/>
             <ColumnDefinition Width="0.5*"/>
             <ColumnDefinition Width="0.04*"/>
             <ColumnDefinition Width="0.5*"/>
-            <ColumnDefinition Width="0.01*"/>
+            <ColumnDefinition Width="0.001*"/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
             <RowDefinition Height="1.4*"/>
-            <RowDefinition Height="0.01*"/>
+            <RowDefinition Height="0.001*"/>
         </Grid.RowDefinitions>
-        
+        <WrapPanel Grid.ColumnSpan="5" Grid.Row="0" Width="auto" Height="auto" VerticalAlignment="Top" HorizontalAlignment="Left">
+            <ItemsControl ItemsSource="{Binding Cities}">
+                <ItemsControl.ItemContainerStyle>
+                    <Style>
+                        <Setter Property="FrameworkElement.Margin" Value="5"/>
+                    </Style>
+                </ItemsControl.ItemContainerStyle>
+                <ItemsControl.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <WrapPanel Orientation="Horizontal"/>
+                    </ItemsPanelTemplate>
+                </ItemsControl.ItemsPanel>
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel>
+                            <Grid Width="195" Height="47">
+                                <Border Width="20" Height="20" HorizontalAlignment="Right" VerticalAlignment="Top" Background="Transparent" BorderThickness="0" Cursor="Hand">
+                                    <Image Source="/Resources/Group_30.png" Stretch="UniformToFill"/>
+                                    <Border.Style>
+                                        <Style TargetType="Border">
+                                            <Setter Property="Cursor" Value="Hand"/>
+                                            <Style.Triggers>
+                                                <Trigger Property="IsMouseOver" Value="True">
+                                                    <Setter Property="Opacity" Value="0.8"/>
+                                                </Trigger>
+                                            </Style.Triggers>
+                                        </Style>
+                                    </Border.Style>
+                                </Border>
+                                <!-- Название города -->
+                                <Rectangle Fill="#3D95B980"/>
+                                <TextBlock Text="{Binding Name}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                            </Grid>
+                            <Grid Width="195" Height="47">
+                                <!-- Долгота и широта -->
+                                <Rectangle Fill="#3D95B980"/>
+                                <TextBlock Text="{Binding Longitude}" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="10,0,0,0"/>
+                                <TextBlock Text="{Binding Latitude}" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,0,10,0"/>
+                            </Grid>
+                        </StackPanel>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+        </WrapPanel>
+
+        <Rectangle Grid.Column="0" Grid.Row="0" Fill="#3F000000">
+            <Rectangle.Effect>
+                <DropShadowEffect Color="Black" Direction="32" ShadowDepth="2" Opacity="0.3" />
+            </Rectangle.Effect>
+        </Rectangle>
+        <Rectangle Grid.Column="4" Grid.Row="0" Fill="#3F000000">
+            <Rectangle.Effect>
+                <DropShadowEffect Color="Black" Direction="32" ShadowDepth="2" Opacity="0.3" />
+            </Rectangle.Effect>
+        </Rectangle>
+        <Rectangle Grid.Column="0" Grid.Row="2"  Grid.ColumnSpan="5" Fill="#3F000000">
+            <Rectangle.Effect>
+                <DropShadowEffect Color="Black" Direction="32" ShadowDepth="2" Opacity="0.3" />
+            </Rectangle.Effect>
+        </Rectangle>
     </Grid>
 </UserControl>

@@ -22,5 +22,10 @@ namespace WpfApp2.Model
             FeelsLike = feelsLike;
             Pathname = pathname;
         }
+
+        public HourlyWeather()
+        {
+            
+        }
     }
 }

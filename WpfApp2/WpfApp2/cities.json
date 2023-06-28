@@ -1,0 +1,14 @@
+[
+  {
+    "Name": "Москва",
+    "CountryCode": "RU",
+    "Latitude": 55.751244,
+    "Longitude": 37.618423
+  },
+  {
+    "Name": "Нью-Йорк",
+    "CountryCode": "US",
+    "Latitude": 40.712776,
+    "Longitude": -74.005974
+  }
+]

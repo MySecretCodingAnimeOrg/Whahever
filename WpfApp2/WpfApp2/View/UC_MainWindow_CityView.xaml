@@ -4,7 +4,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
-             xmlns:local="clr-namespace:WpfApp2"
+             xmlns:local="clr-namespace:WpfApp2" xmlns:viewmodel="clr-namespace:WpfApp2.ViewModel" d:DataContext="{d:DesignInstance Type=viewmodel:UC_MainWindow_CityViewModel}"
              mc:Ignorable="d" 
              d:DesignHeight="158" d:DesignWidth="206"
              Style="{DynamicResource Fone}">
@@ -43,6 +43,6 @@
                 <DropShadowEffect Color="Black" Direction="32" ShadowDepth="2" Opacity="0.5" />
             </Rectangle.Effect>
         </Rectangle>
-        <TextBox x:Name="tb_start" HorizontalAlignment="Center"  Style="{DynamicResource TextBox_Style}" TextWrapping="Wrap" materialDesign:HintAssist.Hint="Ваш город" VerticalAlignment="Center" Width="172" Grid.Column="2"  Grid.Row="2" Height="35"/>
+        <TextBox x:Name="tb_start" Text="{Binding CityName, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" HorizontalAlignment="Center"  Style="{DynamicResource TextBox_Style}" TextWrapping="Wrap" materialDesign:HintAssist.Hint="Ваш город" VerticalAlignment="Center" Width="172" Grid.Column="2"  Grid.Row="2" Height="35"/>
     </Grid>
 </UserControl>

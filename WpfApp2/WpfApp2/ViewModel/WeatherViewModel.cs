@@ -1,6 +1,4 @@
-﻿using SunCloud.Model;
-using SunCloud.ViewModel;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
@@ -14,18 +12,18 @@ namespace WpfApp2.ViewModel
 {
     internal class WeatherViewModel : BindingHelper
     {
-        public YandexApiModel.Model model;
+        //public YandexApiModel.Model model;
 
         //var cords = ApiHelper.GetCoord(.Text);
 
         
 
-        public CityViewModel CityViewModel { get; set; }
+        public SettingsViewModel settingsViewModel { get; set; }
 
-        public WeatherViewModel()
-        { 
-            CityViewModel = new CityViewModel();
-            
-        }
+        //public WeatherViewModel()
+        //{ 
+        //    settingsViewModel = new SettingsViewModel();
+        //    //°
+        //}
     }
 }

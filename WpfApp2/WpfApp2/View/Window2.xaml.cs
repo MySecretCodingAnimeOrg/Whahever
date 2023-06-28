@@ -11,6 +11,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using WpfApp2.ViewModel;
 
 namespace WpfApp2
 {
@@ -24,6 +25,7 @@ namespace WpfApp2
             InitializeComponent();
             Application.Current.MainWindow = this;
             PageFrame.Content = new Weather_Page();
+            DataContext = new SettingsViewModel();
 
 
         }

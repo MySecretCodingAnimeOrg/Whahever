@@ -20,6 +20,14 @@
     <None Remove="Properties\Styles\NightTheme_elements\Night.png" />
     <None Remove="Rainy.png" />
     <None Remove="Rectangle 13.png" />
+    <None Remove="Resources\cities.json" />
+    <None Remove="Resources\clear.png" />
+    <None Remove="Resources\heavy-rain.png" />
+    <None Remove="Resources\light-rain.png" />
+    <None Remove="Resources\partly-cloudy.png" />
+    <None Remove="Resources\snow-showers.png" />
+    <None Remove="Resources\snow.png" />
+    <None Remove="Resources\thunderstorm-with-rain.png" />
     <None Remove="Sunny.png" />
     <None Remove="Vector 45.png" />
     <None Remove="Vector 48.png" />
@@ -28,6 +36,15 @@
   <ItemGroup>
     <PackageReference Include="MaterialDesignThemes" Version="4.9.0" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\..\SunCloudApi\bin\Debug\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="SunCloudApi">
+      <HintPath>..\..\SunCloudApi\bin\Debug\SunCloudApi.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
   <ItemGroup>
@@ -46,19 +63,26 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="Resources\clear.png" />
     <Resource Include="Resources\Cloudy.png" />
     <Resource Include="Resources\Group_30_%281%29.png" />
     <Resource Include="Resources\Group_30.png" />
     <Resource Include="Resources\Group_30.svg" />
+    <Resource Include="Resources\heavy-rain.png" />
+    <Resource Include="Resources\light-rain.png" />
     <Resource Include="Resources\Line.png" />
     <Resource Include="Resources\MorningEvening.png" />
     <Resource Include="Properties\Styles\DayTheme_elements\Day.png" />
     <Resource Include="Properties\Styles\DayTheme_elements\Group 30 (2).png" />
     <Resource Include="Properties\Styles\MorningTheme_elements\MorningEvening.png" />
     <Resource Include="Properties\Styles\NightTheme_elements\Night.png" />
+    <Resource Include="Resources\partly-cloudy.png" />
     <Resource Include="Resources\Rainy.png" />
     <Resource Include="Resources\Rectangle 13.png" />
+    <Resource Include="Resources\snow-showers.png" />
+    <Resource Include="Resources\snow.png" />
     <Resource Include="Resources\Sunny.png" />
+    <Resource Include="Resources\thunderstorm-with-rain.png" />
     <Resource Include="Resources\Vector 45.png" />
     <Resource Include="Resources\Vector 48.png" />
   </ItemGroup>

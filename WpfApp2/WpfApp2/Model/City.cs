@@ -16,7 +16,7 @@ namespace WpfApp2.Model
 
         public City() {}
 
-        public City(string name, string countryCode, double latitude, double longitude)
+        public City(string name, string countryCode, int latitude, int longitude)
         {
             Name = name;
             CountryCode = countryCode;

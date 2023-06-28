@@ -25,7 +25,8 @@ namespace WpfApp2
         public Settings_Page()
         {
             InitializeComponent();
-            DataContext = new UC_SettingsCardViewModel();
+            //DataContext = new UC_SettingsCardViewModel();
+            DataContext = new SettingsViewModel();
         }
     }
 }
