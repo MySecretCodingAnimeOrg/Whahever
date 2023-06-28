@@ -2,3 +2,9 @@
 *.vsidx
 *.dll
 *.exe
+*.lref
+WpfApp2/WpfApp2/obj/Debug/net6.0-windows/WpfApp2_wvcjxgbp_wpftmp.AssemblyInfo.cs
+*.cache
+*.BuildWithSkipAnalyzers
+WpfApp2/WpfApp2/obj/Debug/net6.0-windows/WpfApp2_wvcjxgbp_wpftmp.GeneratedMSBuildEditorConfig.editorconfig
+WpfApp2/WpfApp2/bin/Debug/net6.0-windows/WpfApp2.dll
